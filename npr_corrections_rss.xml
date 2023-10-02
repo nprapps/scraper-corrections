@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Oct 2023 14:34:26 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 02 Oct 2023 18:02:39 -0400</lastBuildDate>
+    <item>
+      <title>New Mix: Bob Dylan, Sparks, Darlingside, Annie Bartholomew, more</title>
+      <link>https://www.npr.org/2023/06/11/1181560666/new-mix-bob-dylan-sparks-darlingside-annie-bartholomew-more</link>
+      <description>A previous version of this story said that Annie Bartholomew's album Sisters of White Chapel was inspired by the stories of women who came to Alaska and the Yukon Territory during the late 1900s. Those women lived during the late 19th century.</description>
+      <guid isPermaLink="false">https://www.npr.org/2023/06/11/1181560666/new-mix-bob-dylan-sparks-darlingside-annie-bartholomew-more</guid>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>'Carterland' puts a positive spin on an oft-disparaged presidency</title>
+      <link>https://www.npr.org/2023/10/02/1202555558/carterland-movie-jimmy-carter</link>
+      <description>An earlier version of this story incorrectly said that President Jimmy Carter appointed Ben Bernanke to head the Federal Reserve. In fact, he appointed Paul Volcker.</description>
+      <guid isPermaLink="false">https://www.npr.org/2023/10/02/1202555558/carterland-movie-jimmy-carter</guid>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 -0500</pubDate>
+    </item>
     <item>
       <title>Donald Trump's business fraud trial gets underway in New York</title>
       <link>https://www.npr.org/2023/10/02/1202730320/trump-business-fraud-trial-new-york</link>
@@ -693,20 +707,6 @@
       <description>An earlier version of this episode implied that American Girl is competition with Mattel. American Girl is owned by Mattel.</description>
       <guid isPermaLink="false">https://www.npr.org/2023/07/12/1187344442/barbie-invites-you-into-a-dream-house-stuffed-with-existential-angst</guid>
       <pubDate>Mon, 24 Jul 2023 00:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>How Jason Aldean's 'Try That in a Small Town' became a political controversy</title>
-      <link>https://www.npr.org/2023/07/20/1188966935/jason-aldean-try-that-in-a-small-town-song-video</link>
-      <description>A previous version of the story said that the Washington Post reported that Choate confessed to attacking a 16-year-old white girl. In fact, the Post reported he allegedly confessed to this attack.</description>
-      <guid isPermaLink="false">https://www.npr.org/2023/07/20/1188966935/jason-aldean-try-that-in-a-small-town-song-video</guid>
-      <pubDate>Thu, 20 Jul 2023 00:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Stanford president resigns after fallout from falsified data in his research</title>
-      <link>https://www.npr.org/2023/07/19/1188828810/stanford-university-president-resigns</link>
-      <description>An earlier version of this story said the Stanford University board of trustees came to its own conclusion about Tessier-Lavigne's academic reports. However, a scientific panel convened by the board to review the reports concluded that several reports he authored contained manipulated data. The board then made those findings available to the public.</description>
-      <guid isPermaLink="false">https://www.npr.org/2023/07/19/1188828810/stanford-university-president-resigns</guid>
-      <pubDate>Thu, 20 Jul 2023 00:00:00 -0500</pubDate>
     </item>
   </channel>
 </rss>
