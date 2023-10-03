@@ -33,7 +33,7 @@ fg.author({'name': 'NPR', 'email': 'hmorris@npr.org'})
 fg.link(href=URL, rel='alternate')
 fg.subtitle('Corrections from NPR')
 fg.language('en')
-fg.lastBuildDate(current_et_time)
+fg.lastBuildDate(current_utc_time)
 
 # Parse the corrections
 corrections = soup.find_all('div', class_='item-info')
@@ -54,7 +54,7 @@ for correction in reversed(corrections[:5]):
     #corrected_on_date = datetime.strptime(corrected_on_date_str, '%Y-%m-%d %H:%M:%S')
     #formatted_date = corrected_on_date.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
     current_datetime = datetime.now()
-    formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
+    formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S +0000')  # RFC 822 format
 
     correction_text = correction_content_div.find('p').text.strip()
 
