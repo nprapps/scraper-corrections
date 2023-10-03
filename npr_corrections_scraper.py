@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 from datetime import datetime
 import pytz
+import os
+import feedparser
 
 # Timezone adjustment
 eastern_timezone = pytz.timezone('US/Eastern')
@@ -15,6 +17,13 @@ URL = 'https://www.npr.org/corrections/'
 # Fetch the page
 response = requests.get(URL)
 soup = BeautifulSoup(response.content, 'html.parser')
+
+# Check if the old RSS file exists and read its entries if it does
+old_entries = {}
+if os.path.exists('npr_corrections_rss.xml'):
+    old_feed = feedparser.parse('npr_corrections_rss.xml')
+    for entry in old_feed.entries:
+        old_entries[entry.id] = entry.published
 
 # Initialize FeedGenerator
 fg = FeedGenerator()
@@ -40,12 +49,12 @@ for correction in reversed(corrections[:20]):
     
     # Extracting the correction details
     correction_content_div = correction.find('div', class_='correction-content')
-    corrected_on_text = correction_content_div.find('h3', class_='corrected-on').text.strip()
-    corrected_on_date_str = corrected_on_text.replace('Corrected on ', '')
-    corrected_on_date = datetime.strptime(corrected_on_date_str, '%Y-%m-%d %H:%M:%S')
-    formatted_date = corrected_on_date.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
-    #current_datetime = datetime.now()
-    #formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
+    #corrected_on_text = correction_content_div.find('h3', class_='corrected-on').text.strip()
+    #corrected_on_date_str = corrected_on_text.replace('Corrected on ', '')
+    #corrected_on_date = datetime.strptime(corrected_on_date_str, '%Y-%m-%d %H:%M:%S')
+    #formatted_date = corrected_on_date.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
+    current_datetime = datetime.now()
+    formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
 
     correction_text = correction_content_div.find('p').text.strip()
 
@@ -53,7 +62,11 @@ for correction in reversed(corrections[:20]):
     entry.id(story_link)
     entry.title(f"{story_title}")
     entry.link(href=story_link, rel='alternate')
-    entry.published(formatted_date)  # Add the publication date
+    # Check if this correction already exists in the old feed
+    if story_link in old_entries:
+        entry.published(old_entries[story_link])
+    else:
+        entry.published(formatted_date)
     description_content = f"{correction_text}"
     entry.description(description_content)
 
