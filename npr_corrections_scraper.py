@@ -30,7 +30,7 @@ fg.lastBuildDate(current_et_time)
 corrections = soup.find_all('div', class_='item-info')
 # ... (the rest of the imports and the beginning of your script remains unchanged)
 
-for correction in reversed(corrections):
+for correction in reversed(corrections[:20]):
     entry = fg.add_entry()
         
     # Extracting title and link of the story
@@ -40,12 +40,12 @@ for correction in reversed(corrections):
     
     # Extracting the correction details
     correction_content_div = correction.find('div', class_='correction-content')
-    #corrected_on_text = correction_content_div.find('h3', class_='corrected-on').text.strip()
-    #corrected_on_date_str = corrected_on_text.replace('Corrected on ', '')
-    #corrected_on_date = datetime.strptime(corrected_on_date_str, '%Y-%m-%d %H:%M:%S')
-    #formatted_date = corrected_on_date.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
-    current_datetime = datetime.now()
-    formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
+    corrected_on_text = correction_content_div.find('h3', class_='corrected-on').text.strip()
+    corrected_on_date_str = corrected_on_text.replace('Corrected on ', '')
+    corrected_on_date = datetime.strptime(corrected_on_date_str, '%Y-%m-%d %H:%M:%S')
+    formatted_date = corrected_on_date.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
+    #current_datetime = datetime.now()
+    #formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
 
     correction_text = correction_content_div.find('p').text.strip()
 
