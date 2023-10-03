@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Oct 2023 07:02:30 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 03 Oct 2023 08:03:41 -0400</lastBuildDate>
     <item>
       <title>New Mix: Bob Dylan, Sparks, Darlingside, Annie Bartholomew, more</title>
       <link>https://www.npr.org/2023/06/11/1181560666/new-mix-bob-dylan-sparks-darlingside-annie-bartholomew-more</link>
@@ -28,6 +28,13 @@
       <description>A previous version of this story incorrectly included Ivanka Trump as among those who are accused of fraud. She is not.</description>
       <guid isPermaLink="false">https://www.npr.org/2023/10/02/1202730320/trump-business-fraud-trial-new-york</guid>
       <pubDate>Mon, 02 Oct 2023 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Poland's dangerous eastern border takes center stage in upcoming elections</title>
+      <link>https://www.npr.org/2023/10/02/1201688645/poland-belarus-migrants-border-wall-polish-election</link>
+      <description>A previous version of this story misspelled Bialowieza, the name of a forest and town in Poland.</description>
+      <guid isPermaLink="false">https://www.npr.org/2023/10/02/1201688645/poland-belarus-migrants-border-wall-polish-election</guid>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 -0500</pubDate>
     </item>
     <item>
       <title>Anger grows over Ukraine's largest Orthodox church, aligned with Moscow despite war</title>
@@ -699,13 +706,6 @@
       <link>https://www.npr.org/2023/07/23/1189685146/elon-musk-twitter-logo-bird-x</link>
       <description>A previous version of the story incorrectly said Jennifer Grygiel is from the University of Syracuse. In fact, they are from Syracuse University.</description>
       <guid isPermaLink="false">https://www.npr.org/2023/07/23/1189685146/elon-musk-twitter-logo-bird-x</guid>
-      <pubDate>Mon, 24 Jul 2023 00:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>'Barbie' invites you into a Dream House stuffed with existential angst</title>
-      <link>https://www.npr.org/2023/07/12/1187344442/barbie-invites-you-into-a-dream-house-stuffed-with-existential-angst</link>
-      <description>An earlier version of this episode implied that American Girl is competition with Mattel. American Girl is owned by Mattel.</description>
-      <guid isPermaLink="false">https://www.npr.org/2023/07/12/1187344442/barbie-invites-you-into-a-dream-house-stuffed-with-existential-angst</guid>
       <pubDate>Mon, 24 Jul 2023 00:00:00 -0500</pubDate>
     </item>
   </channel>
