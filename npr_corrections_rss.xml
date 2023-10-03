@@ -7,12 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Oct 2023 11:02:46 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 03 Oct 2023 12:02:48 -0400</lastBuildDate>
     <item>
       <title>How did we come to live extremely online? Mommy bloggers, says one writer</title>
       <link>https://www.npr.org/2023/10/03/1203033527/how-did-we-come-to-live-extremely-online-mommy-bloggers-says-one-writer</link>
-      <description>An earlier version of this story incorrectly used "cannon" instead of "canon" in a quote from Jeffrey Gibson.</description>
+      <description>An earlier version of this story incorrectly used "kid" instead of "kids" in a quote from Taylor Lorenz</description>
       <guid isPermaLink="false">https://www.npr.org/2023/10/03/1203033527/how-did-we-come-to-live-extremely-online-mommy-bloggers-says-one-writer</guid>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>6 big purchases that can save energy and money at home (plus budget-friendly options)</title>
+      <link>https://www.npr.org/2023/10/03/1196977935/save-money-energy-tips</link>
+      <description>A version of this story incorrectly labeled an image of an electric glass cooktop as an induction stove. The image has been removed and updated.</description>
+      <guid isPermaLink="false">https://www.npr.org/2023/10/03/1196977935/save-money-energy-tips</guid>
       <pubDate>Tue, 03 Oct 2023 00:00:00 -0500</pubDate>
     </item>
     <item>
@@ -699,13 +706,6 @@
       <link>https://www.npr.org/sections/money/2023/07/24/1189443223/affirmative-action-for-rich-kids-its-more-than-just-legacy-admissions</link>
       <description>A previous version of this article incorrectly listed MIT as one of the universities that recently got rid of their legacy admissions program. In fact, MIT had no legacy admission program to get rid of, and there is no record of it having one in the past, according to a spokesperson for the school.</description>
       <guid isPermaLink="false">https://www.npr.org/sections/money/2023/07/24/1189443223/affirmative-action-for-rich-kids-its-more-than-just-legacy-admissions</guid>
-      <pubDate>Mon, 24 Jul 2023 00:00:00 -0500</pubDate>
-    </item>
-    <item>
-      <title>Twitter replaces its bird logo with an X as part of Elon Musk's plan for a super app</title>
-      <link>https://www.npr.org/2023/07/23/1189685146/elon-musk-twitter-logo-bird-x</link>
-      <description>A previous version of the story incorrectly said Jennifer Grygiel is from the University of Syracuse. In fact, they are from Syracuse University.</description>
-      <guid isPermaLink="false">https://www.npr.org/2023/07/23/1189685146/elon-musk-twitter-logo-bird-x</guid>
       <pubDate>Mon, 24 Jul 2023 00:00:00 -0500</pubDate>
     </item>
   </channel>
