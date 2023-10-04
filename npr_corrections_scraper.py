@@ -6,7 +6,7 @@ import pytz
 import os
 import feedparser
 
-# Timezone adjustment
+# Timezone adjustment (this can be removed if you're not using it)
 eastern_timezone = pytz.timezone('US/Eastern')
 current_utc_time = datetime.now(pytz.utc)
 current_et_time = current_utc_time.astimezone(eastern_timezone)
@@ -18,13 +18,6 @@ URL = 'https://www.npr.org/corrections/'
 response = requests.get(URL)
 soup = BeautifulSoup(response.content, 'html.parser')
 
-# Check if the old RSS file exists and read its entries if it does
-old_entries = {}
-if os.path.exists('npr_corrections_rss.xml'):
-    old_feed = feedparser.parse('npr_corrections_rss.xml')
-    for entry in old_feed.entries:
-        old_entries[entry.id] = entry.published
-
 # Initialize FeedGenerator
 fg = FeedGenerator()
 fg.id(URL)
@@ -35,48 +28,65 @@ fg.subtitle('Corrections from NPR')
 fg.language('en')
 fg.lastBuildDate(current_utc_time)
 
-# Parse the corrections
-corrections = soup.find_all('div', class_='item-info')
-# ... (the rest of the imports and the beginning of your script remains unchanged)
+# ... [Previous part of the code remains unchanged]
 
-for correction in reversed(corrections[:10]):
-    entry = fg.add_entry()
-        
-    # Extracting title and link of the story
+# 1. Parse new corrections
+new_entries = []
+
+for correction in soup.find_all('div', class_='item-info')[:10]:
     title_link = correction.find('h2', class_='title').find('a')
     story_title = title_link.text.strip()
     story_link = title_link['href']
-    
-    # Extracting the correction details
     correction_content_div = correction.find('div', class_='correction-content')
-    #corrected_on_text = correction_content_div.find('h3', class_='corrected-on').text.strip()
-    #corrected_on_date_str = corrected_on_text.replace('Corrected on ', '')
-    #corrected_on_date = datetime.strptime(corrected_on_date_str, '%Y-%m-%d %H:%M:%S')
-    #formatted_date = corrected_on_date.strftime('%a, %d %b %Y %H:%M:%S -0500')  # RFC 822 format
     current_datetime = datetime.now()
-    formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S +0000')  # RFC 822 format
-
+    formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S +0000')
     correction_text = correction_content_div.find('p').text.strip()
 
-    # Adding to the RSS feed entry
-    entry.id(story_link)
-    entry.title(f"{story_title}")
-    entry.link(href=story_link, rel='alternate')
-    # Check if this correction already exists in the old feed
-    if story_link in old_entries:
-        entry.published(old_entries[story_link])
-    else:
-        entry.published(formatted_date)
-    description_content = f"{correction_text}"
-    entry.description(description_content)
+    new_entries.append({
+        'title': story_title,
+        'link': story_link,
+        'description': correction_text,
+        'published': formatted_date
+    })
 
+# 2. Read old entries from the existing RSS feed file
+old_feed_entries = []
+
+if os.path.exists('npr_corrections_rss.xml'):
+    old_feed = feedparser.parse('npr_corrections_rss.xml')
+    for entry in old_feed.entries:
+        old_feed_entries.append({
+            'title': entry.title,
+            'link': entry.link,
+            'description': entry.description,
+            'published': entry.published
+        })
+
+# 3. Compare and Add Entries to the RSS Feed
+old_links = [entry['link'] for entry in old_feed_entries]
+
+# First, add entries that are NEW (not in the old feed)
+for entry_data in reversed(new_entries):
+    if entry_data['link'] not in old_links:
+        entry = fg.add_entry(order='prepend')
+        entry.title(entry_data['title'])
+        entry.link(href=entry_data['link'], rel='alternate')
+        entry.description(entry_data['description'])
+        entry.published(entry_data['published'])
+
+# Then, add all old entries
+for entry_data in old_feed_entries:
+    entry = fg.add_entry(order='append')
+    entry.title(entry_data['title'])
+    entry.link(href=entry_data['link'], rel='alternate')
+    entry.description(entry_data['description'])
+    entry.published(entry_data['published'])
 
 # Generate RSS feed
 rssfeed = fg.rss_str(pretty=True)
 
 # Write the RSS feed to a file
 with open('npr_corrections_rss.xml', 'wb') as f:
-#with open('/home/runner/work/corrections-scraper/corrections-scraper/npr_corrections_rss.xml', 'wb') as f:
     f.write(rssfeed)
 
 print("RSS feed generated and saved as 'npr_corrections_rss.xml'")
