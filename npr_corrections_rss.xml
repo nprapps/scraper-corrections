@@ -7,13 +7,27 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Oct 2023 19:02:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Oct 2023 20:02:47 +0000</lastBuildDate>
+    <item>
+      <title>Los Angeles is using AI to predict who might become homeless and help before they do</title>
+      <link>https://www.npr.org/2023/10/04/1202374047/los-angeles-is-using-ai-to-predict-who-might-become-homeless-and-help-before-the</link>
+      <description>Previous photo captions in this story misspelled Valarie Zayas' name as Valaria.</description>
+      <guid isPermaLink="false">https://www.npr.org/2023/10/04/1202374047/los-angeles-is-using-ai-to-predict-who-might-become-homeless-and-help-before-the</guid>
+      <pubDate>Wed, 04 Oct 2023 20:02:47 +0000</pubDate>
+    </item>
     <item>
       <title>Workers at Kaiser Permanente are poised to go out on strike</title>
       <link>https://www.npr.org/2023/10/04/1203547984/workers-at-kaiser-permanente-are-poised-to-go-out-on-strike</link>
       <description>A previous version of the headline misspelled Kaiser Permanente as Kaiser Permanent.</description>
       <guid isPermaLink="false">https://www.npr.org/2023/10/04/1203547984/workers-at-kaiser-permanente-are-poised-to-go-out-on-strike</guid>
       <pubDate>Wed, 04 Oct 2023 16:03:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patrick Stewart says his time on 'Star Trek' felt like a ministry</title>
+      <link>https://www.npr.org/2023/10/04/1203298903/patrick-stewart-star-trek-ministry-picard</link>
+      <description>This story has been updated to replace a photo of Patrick Stewart in costume as Jean Luc Picard that had been reversed by the agency that provided it.</description>
+      <guid isPermaLink="false">https://www.npr.org/2023/10/04/1203298903/patrick-stewart-star-trek-ministry-picard</guid>
+      <pubDate>Wed, 04 Oct 2023 20:02:47 +0000</pubDate>
     </item>
     <item>
       <title>How did we come to live extremely online? Mommy bloggers, says one writer</title>
@@ -62,20 +76,6 @@
       <link>https://www.npr.org/2023/09/30/1201065400/ukraine-russian-orthodox-church-tensions</link>
       <description>In a previous version of this story, we misidentified an image of a monastery in Kyiv and also inaccurately described the location of a protest rally in the Ukrainian capital.</description>
       <guid isPermaLink="false">https://www.npr.org/2023/09/30/1201065400/ukraine-russian-orthodox-church-tensions</guid>
-      <pubDate>Wed, 04 Oct 2023 17:19:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>The White House chief of staff says it's on House Republicans to avert a shutdown</title>
-      <link>https://www.npr.org/2023/09/28/1202288527/biden-mccarthy-shutdown-zients</link>
-      <description>A previous version of this story incorrectly said that a government shutdown — rather than proposed budget cuts from House Republicans — would hurt seniors who rely on Meals on Wheels and families with kids in Head Start programs.</description>
-      <guid isPermaLink="false">https://www.npr.org/2023/09/28/1202288527/biden-mccarthy-shutdown-zients</guid>
-      <pubDate>Wed, 04 Oct 2023 17:19:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>What a government shutdown would mean for the U.S. military — and national security</title>
-      <link>https://www.npr.org/2023/09/27/1201956915/government-shutdown-us-military-national-security</link>
-      <description>This story has been updated to reflect that Coast Guard members did not get paid during the 2018-2019 government shutdown.</description>
-      <guid isPermaLink="false">https://www.npr.org/2023/09/27/1201956915/government-shutdown-us-military-national-security</guid>
       <pubDate>Wed, 04 Oct 2023 17:19:28 +0000</pubDate>
     </item>
   </channel>
