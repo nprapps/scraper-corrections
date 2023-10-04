@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Oct 2023 17:28:19 +0000</lastBuildDate>
-    <item>
-      <title>Who's in the Army now? A pitch switch aims to get more military recruits</title>
-      <link>https://www.npr.org/2023/10/01/1199543004/recruitment-military</link>
-      <description>An earlier version of this story misspelled the first name of Lt. Col. Khrysten Grace as Kristen.</description>
-      <guid isPermaLink="false">https://www.npr.org/2023/10/01/1199543004/recruitment-military</guid>
-      <pubDate>Wed, 04 Oct 2023 17:19:28 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 04 Oct 2023 18:02:49 +0000</lastBuildDate>
     <item>
       <title>Workers at Kaiser Permanente are poised to go out on strike</title>
       <link>https://www.npr.org/2023/10/04/1203547984/workers-at-kaiser-permanente-are-poised-to-go-out-on-strike</link>
@@ -55,6 +48,13 @@
       <link>https://www.npr.org/2023/10/02/1201688645/poland-belarus-migrants-border-wall-polish-election</link>
       <description>A previous version of this story misspelled Bialowieza, the name of a forest and town in Poland.</description>
       <guid isPermaLink="false">https://www.npr.org/2023/10/02/1201688645/poland-belarus-migrants-border-wall-polish-election</guid>
+      <pubDate>Wed, 04 Oct 2023 17:19:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Who's in the Army now? A pitch switch aims to get more military recruits</title>
+      <link>https://www.npr.org/2023/10/01/1199543004/recruitment-military</link>
+      <description>An earlier version of this story misspelled the first name of Lt. Col. Khrysten Grace as Kristen.</description>
+      <guid isPermaLink="false">https://www.npr.org/2023/10/01/1199543004/recruitment-military</guid>
       <pubDate>Wed, 04 Oct 2023 17:19:28 +0000</pubDate>
     </item>
     <item>
