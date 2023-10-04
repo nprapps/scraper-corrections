@@ -39,7 +39,7 @@ fg.lastBuildDate(current_utc_time)
 corrections = soup.find_all('div', class_='item-info')
 # ... (the rest of the imports and the beginning of your script remains unchanged)
 
-for correction in reversed(corrections[:5]):
+for correction in reversed(corrections[:10]):
     entry = fg.add_entry()
         
     # Extracting title and link of the story
