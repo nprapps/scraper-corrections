@@ -33,14 +33,15 @@ fg.lastBuildDate(current_utc_time)
 # 1. Parse new corrections
 new_entries = []
 
-for correction in soup.find_all('div', class_='item-info')[:60]:
+for correction in soup.find_all('div', class_='item-info')[:20]:
     title_link = correction.find('h2', class_='title').find('a')
     story_title = title_link.text.strip()
     story_link = title_link['href']
     correction_content_div = correction.find('div', class_='correction-content')
     current_datetime = datetime.now()
     formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S +0000')
-    correction_text = correction_content_div.find('p').text.strip()
+    correction_texts = [p.text for p in correction_content_div.find_all('p')]
+    correction_text = "\n\n".join(correction_texts).strip()
 
     new_entries.append({
         'title': story_title,
@@ -63,11 +64,14 @@ if os.path.exists('npr_corrections_rss.xml'):
         })
 
 # 3. Compare and Add Entries to the RSS Feed
-old_links = [entry['link'] for entry in old_feed_entries]
+#old_links = [entry['link'] for entry in old_feed_entries]
+
+old_identifiers = [(entry['link'], entry['description']) for entry in old_feed_entries]
 
 # First, add entries that are NEW (not in the old feed)
 for entry_data in reversed(new_entries):
-    if entry_data['link'] not in old_links:
+    identifier = (entry_data['link'], entry_data['description'])
+    if identifier not in old_identifiers:
         entry = fg.add_entry(order='prepend')
         entry.title(entry_data['title'])
         entry.link(href=entry_data['link'], rel='alternate')
