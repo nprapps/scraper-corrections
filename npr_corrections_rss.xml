@@ -1,13 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>NPR Corrector Bot</title>
+    <title>NPR Correctifier Bot</title>
     <link>https://www.npr.org/corrections/</link>
     <description>Corrections from NPR</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Oct 2023 23:04:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Oct 2023 23:19:21 +0000</lastBuildDate>
+    <item>
+      <title>The career and legacy of Sen. Dianne Feinstein</title>
+      <link>https://www.npr.org/2023/09/29/1202753695/the-career-and-legacy-of-senator-dianne-feinstein</link>
+      <description>A previous headline misspelled Sen. Dianne Feinstein's first name as Diane.</description>
+      <pubDate>Wed, 11 Oct 2023 23:19:22 +0000</pubDate>
+    </item>
     <item>
       <title>Families of hostages taken by Hamas militants are desperate amid threats of execution</title>
       <link>https://www.npr.org/2023/10/11/1205033590/israel-hamas-war-hostages-families-execution-threats</link>
