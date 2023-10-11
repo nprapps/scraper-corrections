@@ -33,7 +33,7 @@ fg.lastBuildDate(current_utc_time)
 # 1. Parse new corrections
 new_entries = []
 
-for correction in soup.find_all('div', class_='item-info')[:20]:
+for correction in soup.find_all('div', class_='item-info')[:60]:
     title_link = correction.find('h2', class_='title').find('a')
     story_title = title_link.text.strip()
     story_link = title_link['href']
