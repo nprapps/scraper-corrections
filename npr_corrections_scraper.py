@@ -28,7 +28,6 @@ fg.subtitle('Corrections from NPR')
 fg.language('en')
 fg.lastBuildDate(current_utc_time)
 
-# ... [Previous part of the code remains unchanged]
 
 # 1. Parse new corrections
 new_entries = []
@@ -63,24 +62,17 @@ if os.path.exists('npr_corrections_rss.xml'):
             'published': entry.published
         })
 
-# 3. Compare and Add Entries to the RSS Feed
-#old_links = [entry['link'] for entry in old_feed_entries]
+# 3. Combine and sort entries
 
-old_identifiers = [(entry['link'], entry['description']) for entry in old_feed_entries]
+# Combine new and old entries
+combined_entries = new_entries + old_feed_entries
 
-# First, add entries that are NEW (not in the old feed)
-for entry_data in reversed(new_entries):
-    identifier = (entry_data['link'], entry_data['description'])
-    if identifier not in old_identifiers:
-        entry = fg.add_entry(order='prepend')
-        entry.title(entry_data['title'])
-        entry.link(href=entry_data['link'], rel='alternate')
-        entry.description(entry_data['description'])
-        entry.published(entry_data['published'])
+# Sort the combined entries by published date
+sorted_entries = sorted(combined_entries, key=lambda x: x['published'], reverse=True)[:60]
 
-# Then, add all old entries
-for entry_data in old_feed_entries:
-    entry = fg.add_entry(order='append')
+# Add sorted entries to feed
+for entry_data in reversed(sorted_entries):
+    entry = fg.add_entry()
     entry.title(entry_data['title'])
     entry.link(href=entry_data['link'], rel='alternate')
     entry.description(entry_data['description'])
