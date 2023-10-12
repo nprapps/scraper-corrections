@@ -21,7 +21,7 @@ soup = BeautifulSoup(response.content, 'html.parser')
 # Initialize FeedGenerator
 fg = FeedGenerator()
 fg.id(URL)
-fg.title('NPR Correctifier Bot')
+fg.title('NPR Corrector Bot')
 fg.author({'name': 'NPR', 'email': 'hmorris@npr.org'})
 fg.link(href=URL, rel='alternate')
 fg.subtitle('Corrections from NPR')
