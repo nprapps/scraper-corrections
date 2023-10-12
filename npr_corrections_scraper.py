@@ -37,10 +37,10 @@ for correction in soup.find_all('div', class_='item-info')[:60]:
     story_title = title_link.text.strip()
     story_link = title_link['href']
     correction_content_div = correction.find('div', class_='correction-content')
-    current_datetime = datetime.now()
-    formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S +0000')
     correction_texts = [p.text for p in correction_content_div.find_all('p')]
     correction_text = "\n\n".join(correction_texts).strip()
+    current_datetime = datetime.now()
+    formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S +0000')
 
     new_entries.append({
         'title': story_title,
@@ -59,8 +59,10 @@ if os.path.exists('npr_corrections_rss.xml'):
             'title': entry.title,
             'link': entry.link,
             'description': entry.description,
-            'published': entry.published
+            'published': entry.published  
         })
+
+old_identifiers = [(entry['link'], entry['description']) for entry in old_feed_entries]
 
 # 3. Combine and sort entries
 
@@ -70,13 +72,25 @@ combined_entries = new_entries + old_feed_entries
 # Sort the combined entries by published date
 sorted_entries = sorted(combined_entries, key=lambda x: x['published'], reverse=True)[:60]
 
-# Add sorted entries to feed
-for entry_data in reversed(sorted_entries):
-    entry = fg.add_entry()
+for entry_data in reversed(new_entries):
+    identifier = (entry_data['link'], entry_data['description'])
+    if identifier not in old_identifiers:
+        entry = fg.add_entry(order='prepend')
+        entry.title(entry_data['title'])
+        entry.link(href=entry_data['link'], rel='alternate')
+        entry.description(entry_data['description'])
+        
+        # Assign a new timestamp here for genuinely new entries
+        current_datetime = datetime.now()
+        formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S +0000')
+        entry.published(formatted_date)
+
+for entry_data in old_feed_entries:
+    entry = fg.add_entry(order='append')
     entry.title(entry_data['title'])
     entry.link(href=entry_data['link'], rel='alternate')
     entry.description(entry_data['description'])
-    entry.published(entry_data['published'])
+    entry.published(entry_data['published'])  # <-- Use the original timestamp here
 
 # Generate RSS feed
 rssfeed = fg.rss_str(pretty=True)
