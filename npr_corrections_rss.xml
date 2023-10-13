@@ -1,13 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>NPR Correctifier Bot</title>
+    <title>NPR Corrector Bot</title>
     <link>https://www.npr.org/corrections/</link>
     <description>Corrections from NPR</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Oct 2023 22:28:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Oct 2023 23:02:35 +0000</lastBuildDate>
+    <item>
+      <title>The latest Gallup poll finds two-thirds of Americans approve of unions</title>
+      <link>https://www.npr.org/2023/08/30/1196712525/the-latest-gallop-poll-finds-two-thirds-of-americans-approve-of-unions</link>
+      <description>An earlier version of this story misspelled the name of the Gallup company in the headline.</description>
+      <pubDate>Fri, 13 Oct 2023 23:02:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steve Scalise says he has been diagnosed with a 'very treatable blood cancer'</title>
+      <link>https://www.npr.org/2023/08/29/1196555401/scalise-blood-cancer</link>
+      <description>A previous version of this story said Rep. Steve Scalise was 51. He is 57.</description>
+      <pubDate>Fri, 13 Oct 2023 23:02:36 +0000</pubDate>
+    </item>
     <item>
       <title>Israel Issues Evacuation Order For Gaza, Scalise Drops Out, Elijah McClain Verdict</title>
       <link>https://www.npr.org/2023/10/13/1198908607/up-first-draft-10-13-2023</link>
@@ -360,18 +372,6 @@ In addition, an earlier version of this story stated NPR's leadership team was 4
       <title>A new satellite will help tackle methane leaks, a major driver of global warming</title>
       <link>https://www.npr.org/2023/09/02/1197419211/a-new-satellite-will-help-tackle-methane-leaks-a-major-driver-of-global-warming</link>
       <description>The broadcast version of this report inaccurately described the professional background of Manfredi Caltagirone. He is the head of the International Methane Emissions Observatory, but is not himself a scientist studying methane. The reference has been corrected in the story available online.</description>
-      <pubDate>Thu, 12 Oct 2023 18:03:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>The front page of UNC's Daily Tar Heel was a gut punch. Here's the story behind it</title>
-      <link>https://www.npr.org/2023/09/01/1197145404/unc-daily-tar-heel-newspaper-front-page-shooting</link>
-      <description>An earlier version of this story mischaracterized the sequence of mass school shootings that predated Everytown for Gun Safety's data analysis.</description>
-      <pubDate>Thu, 12 Oct 2023 18:03:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Age ain't nothing but a number but for aging lawmakers, it's raising questions</title>
-      <link>https://www.npr.org/2023/09/01/1197120521/washington-aging-politicians-old-congress-biden-trump-mcconnell-feinstein</link>
-      <description>An earlier version of this story reported the wrong date of Sen. Robert Byrd's death. Byrd died on June 28, 2010.</description>
       <pubDate>Thu, 12 Oct 2023 18:03:34 +0000</pubDate>
     </item>
   </channel>
