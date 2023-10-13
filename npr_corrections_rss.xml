@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Oct 2023 22:18:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Oct 2023 22:28:09 +0000</lastBuildDate>
+    <item>
+      <title>Israel Issues Evacuation Order For Gaza, Scalise Drops Out, Elijah McClain Verdict</title>
+      <link>https://www.npr.org/2023/10/13/1198908607/up-first-draft-10-13-2023</link>
+      <description>An earlier headline misspelled the last name of Elijah McClain as McCain.</description>
+      <pubDate>Fri, 13 Oct 2023 22:28:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>How the Muslim-Jewish interfaith movement is navigating these tense times</title>
+      <link>https://www.npr.org/2023/10/12/1205549313/how-the-muslim-jewish-interfaith-movement-is-navigating-these-tense-times</link>
+      <description>The audio of this story incorrectly refers to the group NewGround: A Muslim-Jewish Partnership for Change as "NewGround: A Muslim-Jewish Partnership for Peace."</description>
+      <pubDate>Fri, 13 Oct 2023 22:28:10 +0000</pubDate>
+    </item>
     <item>
       <title>Gazans flee their homes after an Israeli evacuation order but have few places to go</title>
       <link>https://www.npr.org/2023/10/13/1205672587/israel-warns-evacuate-northern-gaza</link>
@@ -360,18 +372,6 @@ In addition, an earlier version of this story stated NPR's leadership team was 4
       <title>Age ain't nothing but a number but for aging lawmakers, it's raising questions</title>
       <link>https://www.npr.org/2023/09/01/1197120521/washington-aging-politicians-old-congress-biden-trump-mcconnell-feinstein</link>
       <description>An earlier version of this story reported the wrong date of Sen. Robert Byrd's death. Byrd died on June 28, 2010.</description>
-      <pubDate>Thu, 12 Oct 2023 18:03:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>The latest Gallup poll finds two-thirds of Americans approve of unions</title>
-      <link>https://www.npr.org/2023/08/30/1196712525/the-latest-gallop-poll-finds-two-thirds-of-americans-approve-of-unions</link>
-      <description>An earlier version of this story misspelled the name of the Gallup company in the headline.</description>
-      <pubDate>Thu, 12 Oct 2023 18:03:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steve Scalise says he has been diagnosed with a 'very treatable blood cancer'</title>
-      <link>https://www.npr.org/2023/08/29/1196555401/scalise-blood-cancer</link>
-      <description>A previous version of this story said Rep. Steve Scalise was 51. He is 57.</description>
       <pubDate>Thu, 12 Oct 2023 18:03:34 +0000</pubDate>
     </item>
   </channel>
