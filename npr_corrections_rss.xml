@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Oct 2023 19:02:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Oct 2023 20:02:47 +0000</lastBuildDate>
+    <item>
+      <title>Retirement benefits are one of the hang-ups in UAW negotiations</title>
+      <link>https://www.npr.org/2023/10/13/1205855982/retirement-benefits-are-one-of-the-hang-ups-in-uaw-negotiations</link>
+      <description>This story incorrectly stated that at one point, GM had 10 retired workers for every active one. In its 2005 annual report, GM reported 3.2 retirees and surviving spouses for every active employee in the U.S.</description>
+      <pubDate>Tue, 17 Oct 2023 20:02:49 +0000</pubDate>
+    </item>
     <item>
       <title>'Total War: Pharaoh' and 'Star Trek: Infinite': boldly going where we've been before</title>
       <link>https://www.npr.org/2023/10/12/1204955269/total-war-pharaoh-star-trek-infinite-strategy</link>
@@ -366,12 +372,6 @@ In addition, an earlier version of this story stated NPR's leadership team was 4
       <title>Bill Richardson, former N.M. governor who worked to free Americans held abroad, dies</title>
       <link>https://www.npr.org/2023/09/02/1197430962/bill-richardson-former-new-mexico-governor-and-diplomat-dies-at-75</link>
       <description>A previous version of this story incorrectly said that Bill Richardson had a daughter.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>A new satellite will help tackle methane leaks, a major driver of global warming</title>
-      <link>https://www.npr.org/2023/09/02/1197419211/a-new-satellite-will-help-tackle-methane-leaks-a-major-driver-of-global-warming</link>
-      <description>The broadcast version of this report inaccurately described the professional background of Manfredi Caltagirone. He is the head of the International Methane Emissions Observatory, but is not himself a scientist studying methane. The reference has been corrected in the story available online.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
