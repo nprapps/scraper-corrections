@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Oct 2023 17:02:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Oct 2023 18:02:54 +0000</lastBuildDate>
+    <item>
+      <title>Using AI, cartoonist Amy Kurzweil connects with deceased grandfather in 'Artificial'</title>
+      <link>https://www.npr.org/2023/10/19/1205898776/new-yorker-cartoonist-amy-kurzweils-graphic-memoir-artificial-a-love-story</link>
+      <description>An earlier version of this story incorrectly stated that Kristen Radtke was a cartoonist for the New Yorker. She's a graphic memoirist and the creative director of The Verge.</description>
+      <pubDate>Thu, 19 Oct 2023 18:02:56 +0000</pubDate>
+    </item>
     <item>
       <title>Hundreds killed in explosion at a crowded Gaza hospital</title>
       <link>https://www.npr.org/2023/10/17/1206282283/gaza-aid-israel-hamas-biden-visit</link>
@@ -364,14 +370,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <description>In an earlier description for this story, the name of the secretary of the Department of Health and Human Services was misspelled. He is Xavier Becerra, not Javier Becerra. 
 
 A previous version of this story incorrectly attributed a quote about "nursing being a demanding job" to the National Library of Medicine. In fact, that quote came from the journal Acta Biomedica.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>NPR CEO John Lansing will leave in December, capping a tumultuous year</title>
-      <link>https://www.npr.org/2023/09/05/1197104861/npr-ceo-john-lansing-leaves</link>
-      <description>An earlier version of this story incorrectly stated the company that former NPR chief operating officer Will Lee now leads. He left NPR in June to become chief executive of Adweek. 
-
-In addition, an earlier version of this story stated NPR's leadership team was 42% people of color. It is 46%.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
