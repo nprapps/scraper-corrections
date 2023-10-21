@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Oct 2023 11:02:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Oct 2023 12:03:20 +0000</lastBuildDate>
+    <item>
+      <title>Palestinians brace for more violence after reprisal attacks in the West Bank</title>
+      <link>https://www.npr.org/2023/10/20/1207543936/israel-palestine-hamas-west-bank</link>
+      <description>An earlier version of this story said a lawyer had told NPR of shootings of Palestinians.  In fact the lawyer told of shootings of Israelis.</description>
+      <pubDate>Sat, 21 Oct 2023 12:03:21 +0000</pubDate>
+    </item>
     <item>
       <title>Britney Spears memoir reaches bestseller status a week before it hits shelves</title>
       <link>https://www.npr.org/2023/10/18/1206783968/britney-spears-book-the-woman-in-me-hits-bestseller-status</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Where *hasn't* someone escaped from prison this week? Find out in the weekly quiz</title>
       <link>https://www.npr.org/2023/09/08/1198068925/where-hasnt-someone-escaped-from-prison-this-week-find-out-in-the-weekly-quiz</link>
       <description>An earlier version of the homepage text for this story said it was a big week for escaped cons. Only one escapee was a convict.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Voting online is very risky. But hundreds of thousands of people are already doing it</title>
-      <link>https://www.npr.org/2023/09/07/1192723913/internet-voting-explainer</link>
-      <description>An earlier version of this story said experts were unanimously against internet voting, but it is more accurate to say widespread internet voting, as some experts do think it is an acceptable practice in very limited circumstances.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
