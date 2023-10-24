@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Oct 2023 16:02:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Oct 2023 17:02:42 +0000</lastBuildDate>
+    <item>
+      <title>An off-duty pilot attempted to shut off the engines in flight, Alaska Airlines says</title>
+      <link>https://www.npr.org/2023/10/23/1208009872/off-duty-pilot-attempted-to-shut-off-the-engines-in-flight-alaska-airlines</link>
+      <description>In an earlier version of this story, we incorrectly reported that flight attendants were permitted to occupy a jump seat in the flight deck.</description>
+      <pubDate>Tue, 24 Oct 2023 17:02:43 +0000</pubDate>
+    </item>
     <item>
       <title>Freed Israeli hostage: Hamas kidnapping was 'hell'</title>
       <link>https://www.npr.org/2023/10/24/1208170863/israeli-hamas-gaza-hostages</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Rich countries have to look beyond their own borders, says U.N. high commissioner</title>
       <link>https://www.npr.org/2023/09/13/1199168397/rich-countries-have-to-look-beyond-their-own-borders-says-un-high-commissioner</link>
       <description>An earlier version of this story incorrectly attributed the expected number of refugees to cross into Chad by the end of this year to the U.N. Human Rights Council. In fact, it's the U.N. High Commissioner for Refugees (UNHCR) that projects that over 600,000 refugees will arrive in Chad this year.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Most California voters oppose cash reparations for slavery, poll finds</title>
-      <link>https://www.npr.org/2023/09/11/1198805444/most-california-voters-oppose-cash-reparations-for-slavery-poll-finds</link>
-      <description>A previous version of this story was not clear about the work Khansa Jones-Muhammad is performing in support of reparations. She is vice-chair of the Los Angeles Reparations Advisory Commission, and is president of the National Assembly of American Slavery Descendants, a role in which she is working to launch an educational campaign on the legacy of slavery.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
