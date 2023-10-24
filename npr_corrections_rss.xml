@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Oct 2023 15:02:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Oct 2023 16:02:53 +0000</lastBuildDate>
+    <item>
+      <title>Freed Israeli hostage: Hamas kidnapping was 'hell'</title>
+      <link>https://www.npr.org/2023/10/24/1208170863/israeli-hamas-gaza-hostages</link>
+      <description>NPR has updated this story to reflect a more accurate translation of Yocheved Lifshitz's statement describing her time in captivity as "hell," rather than a "nightmare" as previously published.</description>
+      <pubDate>Tue, 24 Oct 2023 16:02:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>An off-duty pilot attempted to shut off the engines in flight, Alaska Airlines says</title>
+      <link>https://www.npr.org/2023/10/23/1208009872/off-duty-pilot-attempted-to-shut-off-the-engines-in-flight-alaska-airlines</link>
+      <description>In an earlier version of this story, we incorrectly reported that flight attendants were permitted to occupy a jump seat.</description>
+      <pubDate>Tue, 24 Oct 2023 16:02:54 +0000</pubDate>
+    </item>
     <item>
       <title>Palestinians brace for more violence after reprisal attacks in the West Bank</title>
       <link>https://www.npr.org/2023/10/20/1207543936/israel-palestine-hamas-west-bank</link>
@@ -356,18 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Most California voters oppose cash reparations for slavery, poll finds</title>
       <link>https://www.npr.org/2023/09/11/1198805444/most-california-voters-oppose-cash-reparations-for-slavery-poll-finds</link>
       <description>A previous version of this story was not clear about the work Khansa Jones-Muhammad is performing in support of reparations. She is vice-chair of the Los Angeles Reparations Advisory Commission, and is president of the National Assembly of American Slavery Descendants, a role in which she is working to launch an educational campaign on the legacy of slavery.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>'Star Trek' stars join the picket lines in Hollywood</title>
-      <link>https://www.npr.org/2023/09/09/1198567210/star-trek-picket-line-actors-strike</link>
-      <description>An earlier version of this story misspelled the first name of Wil Wheaton as Will.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Where *hasn't* someone escaped from prison this week? Find out in the weekly quiz</title>
-      <link>https://www.npr.org/2023/09/08/1198068925/where-hasnt-someone-escaped-from-prison-this-week-find-out-in-the-weekly-quiz</link>
-      <description>An earlier version of the homepage text for this story said it was a big week for escaped cons. Only one escapee was a convict.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
