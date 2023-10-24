@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Oct 2023 18:03:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Oct 2023 18:52:10 +0000</lastBuildDate>
+    <item>
+      <title>Rich countries have to look beyond their own borders, says U.N. high commissioner</title>
+      <link>https://www.npr.org/2023/09/13/1199168397/rich-countries-have-to-look-beyond-their-own-borders-says-un-high-commissioner</link>
+      <description>An earlier version of this story incorrectly attributed the expected number of refugees to cross into Chad by the end of this year to the U.N. Human Rights Council. In fact, it's the U.N. High Commissioner for Refugees (UNHCR) that projects that over 600,000 refugees will arrive in Chad this year.</description>
+      <pubDate>Tue, 24 Oct 2023 18:52:11 +0000</pubDate>
+    </item>
     <item>
       <title>An off-duty pilot attempted to shut off the engines in flight, Alaska Airlines says</title>
       <link>https://www.npr.org/2023/10/23/1208009872/off-duty-pilot-attempted-to-shut-off-the-engines-in-flight-alaska-airlines</link>
@@ -363,12 +369,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <link>https://www.npr.org/2023/09/13/1199168390/sen-mark-kelly-biden-impeachment-talks</link>
       <description>An earlier version of this story incorrectly attributed a quote about politics in the military to Sen. Mark Kelly. The statement was made by Sen. Tommy Tuberville.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Most California voters oppose cash reparations for slavery, poll finds</title>
-      <link>https://www.npr.org/2023/09/11/1198805444/most-california-voters-oppose-cash-reparations-for-slavery-poll-finds</link>
-      <description>A previous version of this story was not clear about the work Khansa Jones-Muhammad is performing in support of reparations. She is vice-chair of the Los Angeles Reparations Advisory Commission, and is president of the National Assembly of American Slavery Descendants, a role in which she is working to launch an educational campaign on the legacy of slavery.</description>
-      <pubDate>Tue, 24 Oct 2023 18:03:13 +0000</pubDate>
     </item>
   </channel>
 </rss>
