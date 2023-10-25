@@ -63,35 +63,41 @@ if os.path.exists('npr_corrections_rss.xml'):
             'published': entry.published
         })
 
-# 3. Compare and Add Entries to the RSS Feed
+# Create a dictionary to store old entries by their links
+old_feed_map = {entry['link']: entry for entry in old_feed_entries}
 
-old_identifiers = [(entry['link'], entry['description']) for entry in old_feed_entries]
-
-added_count = 0  # This will keep track of the total entries added to the RSS feed
-
-# First, add entries that are NEW (not in the old feed)
-for entry_data in reversed(new_entries):
-    if added_count >= 60:
-        break  # Stop adding if we've already added 60 entries
-    identifier = (entry_data['link'], entry_data['description'])
-    if identifier not in old_identifiers:
-        added_count += 1
+# 3. Process and add the new entries
+for entry_data in new_entries:
+    # If the link exists in old entries, check the description
+    if entry_data['link'] in old_feed_map:
+        # If descriptions differ, update and prepend
+        if entry_data['description'] != old_feed_map[entry_data['link']]['description']:
+            old_feed_map[entry_data['link']] = entry_data  # Update the entry in the map
+            entry = fg.add_entry(order='prepend')
+            entry.title(entry_data['title'])
+            entry.link(href=entry_data['link'], rel='alternate')
+            entry.description(entry_data['description'])
+            entry.published(entry_data['published'])
+            del old_feed_map[entry_data['link']]  # Remove the entry from the old_feed_map to prevent re-adding it
+    else:
+        # If the link doesn't exist, just prepend
         entry = fg.add_entry(order='prepend')
         entry.title(entry_data['title'])
         entry.link(href=entry_data['link'], rel='alternate')
         entry.description(entry_data['description'])
         entry.published(entry_data['published'])
 
-# Then, add all old entries
-for entry_data in old_feed_entries:
-    if added_count >= 60:
-        break  # Stop adding if we've already added 60 entries
-    added_count += 1
+# After processing the new entries, append all remaining old entries
+for link, entry_data in old_feed_map.items():
     entry = fg.add_entry(order='append')
     entry.title(entry_data['title'])
     entry.link(href=entry_data['link'], rel='alternate')
     entry.description(entry_data['description'])
     entry.published(entry_data['published'])
+
+    # Ensure you don't exceed 60 total entries in the feed
+    if len(fg.entry()) >= 60:
+        break
 
 # Generate RSS feed
 rssfeed = fg.rss_str(pretty=True)
