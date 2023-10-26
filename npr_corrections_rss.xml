@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Oct 2023 19:02:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Oct 2023 20:02:45 +0000</lastBuildDate>
+    <item>
+      <title>Tiny deer and rising seas: How climate change is testing the Endangered Species Act</title>
+      <link>https://www.npr.org/2023/10/25/1198908368/florida-key-deer-endangered</link>
+      <description>In the audio of this episode, we incorrectly stated that Valerie Preziosi is the founder of Key Deer Alliance. In fact, she is the founder and director of the organization Save Our Key Deer.</description>
+      <pubDate>Thu, 26 Oct 2023 20:02:46 +0000</pubDate>
+    </item>
     <item>
       <title>Jonathan Majors' trial for assault and harassment charges rescheduled again</title>
       <link>https://www.npr.org/2023/10/25/1191589920/jonathan-majors-trial-assault-harassment-new-york</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>'NY Times' reporter details the struggle within the military to modernize its forces</title>
       <link>https://www.npr.org/2023/09/13/1199222328/ny-times-reporter-details-the-struggle-within-the-military-to-modernize-its-forc</link>
       <description>The audio of this interview incorrectly refers to Haley Barbour as a former governor of Louisiana. He is a former governor of Mississippi.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sen. Mark Kelly says Biden impeachment talks are 'a distraction and a waste of time'</title>
-      <link>https://www.npr.org/2023/09/13/1199168390/sen-mark-kelly-biden-impeachment-talks</link>
-      <description>An earlier version of this story incorrectly attributed a quote about politics in the military to Sen. Mark Kelly. The statement was made by Sen. Tommy Tuberville.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
