@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 30 Oct 2023 23:02:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Oct 2023 00:08:28 +0000</lastBuildDate>
+    <item>
+      <title>The Three Faces of Ataturk</title>
+      <link>https://www.npr.org/2023/10/26/1198908163/the-three-faces-of-ataturk</link>
+      <description>An earlier version of this episode incorrectly said that the word "genocide" was first used to describe actions taken by Ottomans against Armenians. Most historians view the series of massacres and displacements of Armenians started by Ottoman forces in 1915 as a "genocide,"but the word "genocide" was not coined until 1944. Turkey denies the label, "genocide," and says the deaths came amid widespread regional conflict.</description>
+      <pubDate>Tue, 31 Oct 2023 00:08:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>'The Unmarked Graveyard' digs into the mysteries surrounding author Dawn Powell</title>
+      <link>https://www.npr.org/2023/10/28/1209273923/the-unmarked-graveyard-digs-into-the-mysteries-surrounding-author-dawn-powell</link>
+      <description>A previous version of this story incorrectly stated that today, Dawn Powell's son would be diagnosed as having cerebral palsy and schizophrenia. Per Powell's biographer, Tim Page, today Dawn Powell's son would actually be diagnosed with autism.</description>
+      <pubDate>Tue, 31 Oct 2023 00:08:28 +0000</pubDate>
+    </item>
     <item>
       <title>Gaza residents break into U.N. warehouse for supplies as Israeli barrage continues</title>
       <link>https://www.npr.org/2023/10/29/1209307843/gaza-residents-break-into-u-n-warehouse-for-supplies-as-israeli-barrage-continue</link>
@@ -356,18 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Up First briefing: UAW strike; Birmingham church bombing anniversary; NPR news quiz</title>
       <link>https://www.npr.org/2023/09/15/1199690188/up-first-briefing-uaw-strike-birmingham-church-bombing-anniversary-npr-news-quiz</link>
       <description>This morning's newsletter incorrectly said the CDC recommends everyone 6 years and older get the new COVID-19 vaccine. In fact, it's everyone 6 months and older.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exxon minimized climate change internally after conceding that fossil fuels cause it</title>
-      <link>https://www.npr.org/2023/09/14/1199570023/exxon-climate-change-fossil-fuels-global-warming-oil-gas</link>
-      <description>An earlier version of this story incorrectly said that Exxon recently bought a company called Denbury. That acquisition has not been completed.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>A corruption trial revealed a #MeToo ethics entanglement for a top Biden adviser</title>
-      <link>https://www.npr.org/2023/09/13/1198657306/a-corruption-trial-revealed-a-metoo-ethics-entanglement-for-a-top-biden-adviser</link>
-      <description>NPR updated this story to more clearly define the differences between the Time's Up Legal Defense Fund, Time's Up Now and the Time's Up Foundation.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
