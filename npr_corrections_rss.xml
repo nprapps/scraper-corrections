@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Oct 2023 19:02:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Oct 2023 20:02:46 +0000</lastBuildDate>
+    <item>
+      <title>Education Department punishes student loan servicer for billing mistakes</title>
+      <link>https://www.npr.org/2023/10/31/1209464901/education-department-punishes-student-loan-servicer-billing-mistakes-mohela</link>
+      <description>A previous version of this digital story incorrectly identified MOHELA as the largest federal student loan servicer. In fact, it is one of the largest loan servicers.</description>
+      <pubDate>Tue, 31 Oct 2023 20:02:47 +0000</pubDate>
+    </item>
     <item>
       <title>The Three Faces of Ataturk</title>
       <link>https://www.npr.org/2023/10/26/1198908163/the-three-faces-of-ataturk</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Ohio's Hopewell Ceremonial Earthworks are now a UNESCO World Heritage site</title>
       <link>https://www.npr.org/2023/09/16/1199573920/ohios-hopewell-ceremonial-earthworks-now-a-unesco-world-heritage-site</link>
       <description>A previous version of the story said Jennifer Aultman is director of historic sites and museums at Ohio History Connection. She is the organization's chief historic sites officer.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Up First briefing: UAW strike; Birmingham church bombing anniversary; NPR news quiz</title>
-      <link>https://www.npr.org/2023/09/15/1199690188/up-first-briefing-uaw-strike-birmingham-church-bombing-anniversary-npr-news-quiz</link>
-      <description>This morning's newsletter incorrectly said the CDC recommends everyone 6 years and older get the new COVID-19 vaccine. In fact, it's everyone 6 months and older.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
