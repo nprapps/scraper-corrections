@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Nov 2023 14:02:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Nov 2023 15:02:45 +0000</lastBuildDate>
+    <item>
+      <title>To control rabies in wildlife, the USDA drops vaccine treats from the sky</title>
+      <link>https://www.npr.org/2023/11/01/1198908463/raccoon-rabies-usda-vaccination-program-airdrop-oral-vaccine</link>
+      <description>An earlier version of this story misspelled Emily Mullin's last name as Mullen.</description>
+      <pubDate>Wed, 01 Nov 2023 15:02:46 +0000</pubDate>
+    </item>
     <item>
       <title>Education Department punishes student loan servicer for billing mistakes</title>
       <link>https://www.npr.org/2023/10/31/1209464901/education-department-punishes-student-loan-servicer-billing-mistakes-mohela</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Historian Simon Schama's new book traces the roots of today's distrust of vaccines</title>
       <link>https://www.npr.org/2023/09/16/1199963958/historian-simon-schama-new-book-traces-the-roots-of-todays-distrust-of-vaccines</link>
       <description>A previous headline misspelled Simon Schama's last name as Schema.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ohio's Hopewell Ceremonial Earthworks are now a UNESCO World Heritage site</title>
-      <link>https://www.npr.org/2023/09/16/1199573920/ohios-hopewell-ceremonial-earthworks-now-a-unesco-world-heritage-site</link>
-      <description>A previous version of the story said Jennifer Aultman is director of historic sites and museums at Ohio History Connection. She is the organization's chief historic sites officer.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
