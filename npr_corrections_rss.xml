@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Nov 2023 04:03:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2023 05:02:51 +0000</lastBuildDate>
+    <item>
+      <title>Ohio's Hopewell Ceremonial Earthworks are now a UNESCO World Heritage site</title>
+      <link>https://www.npr.org/2023/09/16/1199573920/ohios-hopewell-ceremonial-earthworks-now-a-unesco-world-heritage-site</link>
+      <description>A previous version of the story said Jennifer Aultman is director of historic sites and museums at Ohio History Connection. She is the organization's chief historic sites officer.</description>
+      <pubDate>Thu, 02 Nov 2023 05:02:51 +0000</pubDate>
+    </item>
     <item>
       <title>Tiny deer and rising seas: How climate change is testing the Endangered Species Act</title>
       <link>https://www.npr.org/2023/10/25/1198908368/florida-key-deer-endangered</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>A Danish artist has been ordered to repay a museum after delivering blank canvases</title>
       <link>https://www.npr.org/2023/09/18/1200192209/danish-artist-jens-haaning-blank-canvases-ordered-to-repay-loan-kunsten</link>
       <description>An earlier version of this story listed an incorrect currency when describing a loan provided by the Kunsten Museum of Modern Art to artist Jens Haaning. The loan was provided in Danish krone.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Historian Simon Schama's new book traces the roots of today's distrust of vaccines</title>
-      <link>https://www.npr.org/2023/09/16/1199963958/historian-simon-schama-new-book-traces-the-roots-of-todays-distrust-of-vaccines</link>
-      <description>A previous headline misspelled Simon Schama's last name as Schema.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
