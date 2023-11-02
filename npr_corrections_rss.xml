@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Nov 2023 12:03:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2023 13:05:14 +0000</lastBuildDate>
+    <item>
+      <title>Hollywood writers return to work, after a nearly five month strike</title>
+      <link>https://www.npr.org/2023/09/26/1201936449/writers-strike-end-vote-wga-leadership</link>
+      <description>In the audio of this story, as in a previous web version, we incorrectly identify David Goodman as the current president of the WGA West. Goodman is a past president of the WGA West and current co-chair of the WGA's negotiating committee.</description>
+      <pubDate>Thu, 02 Nov 2023 13:05:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>What a government shutdown would mean for the U.S. military — and national security</title>
+      <link>https://www.npr.org/2023/09/27/1201956915/government-shutdown-us-military-national-security</link>
+      <description>This story has been updated to reflect that Coast Guard members did not get paid during the 2018-2019 government shutdown.</description>
+      <pubDate>Thu, 02 Nov 2023 13:05:15 +0000</pubDate>
+    </item>
     <item>
       <title>What's Making Us Happy: A guide to your weekend viewing and reading</title>
       <link>https://www.npr.org/2023/09/22/1200392962/whats-making-us-happy-a-guide-to-your-weekend-viewing-and-reading</link>
@@ -356,18 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>The career and legacy of Sen. Dianne Feinstein</title>
       <link>https://www.npr.org/2023/09/29/1202753695/the-career-and-legacy-of-senator-dianne-feinstein</link>
       <description>A previous headline misspelled Sen. Dianne Feinstein's first name as Diane.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trump's N.Y. business empire is 'greatly at risk' from judge's fraud ruling</title>
-      <link>https://www.npr.org/2023/09/29/1202534656/trump-fraud-ruling-new-york-business-empire-judge</link>
-      <description>A previous version of this story misspelled John Coffee's surname as Coffey.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>The White House chief of staff says it's on House Republicans to avert a shutdown</title>
-      <link>https://www.npr.org/2023/09/28/1202288527/biden-mccarthy-shutdown-zients</link>
-      <description>A previous version of this story incorrectly said that a government shutdown — rather than proposed budget cuts from House Republicans — would hurt seniors who rely on Meals on Wheels and families with kids in Head Start programs.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
