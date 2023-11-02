@@ -7,7 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Nov 2023 19:02:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2023 20:02:41 +0000</lastBuildDate>
+    <item>
+      <title>Workers at Kaiser Permanente are poised to go out on strike</title>
+      <link>https://www.npr.org/2023/10/04/1203547984/workers-at-kaiser-permanente-are-poised-to-go-out-on-strike</link>
+      <description>A previous version of the headline misspelled Kaiser Permanente as Kaiser Permanent.</description>
+      <pubDate>Thu, 02 Nov 2023 20:02:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Los Angeles is using AI to predict who might become homeless and help before they do</title>
+      <link>https://www.npr.org/2023/10/04/1202374047/los-angeles-is-using-ai-to-predict-who-might-become-homeless-and-help-before-the</link>
+      <description>Previous photo captions in this story misspelled Valarie Zayas' name as Valaria.</description>
+      <pubDate>Thu, 02 Nov 2023 20:02:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Poet Safiya Sinclair reflects on her Rastafari roots and how she cut herself free</title>
+      <link>https://www.npr.org/2023/10/04/1203590575/poet-safiya-sinclair-rasta-how-to-say-babylon</link>
+      <description>An earlier version of this story incorrectly quoted Sinclair as saying she realized that poetry could "alkalize" the hurt she was feeling. Sinclair said she realized that poetry cold alchemize that hurt.</description>
+      <pubDate>Thu, 02 Nov 2023 20:02:42 +0000</pubDate>
+    </item>
     <item>
       <title>Patrick Stewart says his time on 'Star Trek' felt like a ministry</title>
       <link>https://www.npr.org/2023/10/04/1203298903/patrick-stewart-star-trek-ministry-picard</link>
@@ -350,24 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Israel, even with superior intelligence abilities, fails to anticipate Hamas attack</title>
       <link>https://www.npr.org/2023/10/09/1204612052/israel-even-with-superior-intelligence-abilities-fails-to-anticipate-hamas-attac</link>
       <description>Earlier digital and audio versions characterized the guest as a top adviser to a former Israeli prime minister. Daniel Levy was an adviser in the government of former Prime Minister Ehud Barak.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Villano Antillano: Tiny Desk Concert</title>
-      <link>https://www.npr.org/2023/10/06/1200583026/villano-antillano-tiny-desk-concert</link>
-      <description>This page originally credited Emilio Mendez as the keyboardist in this Tiny Desk performance. It was Barba Blanca.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>New technology uses good old-fashioned wind to power giant cargo vessels</title>
-      <link>https://www.npr.org/2023/10/05/1200788439/wind-power-cargo-ships-carbon-emissions</link>
-      <description>Previous audio and digital versions of this story said the IMO's goal was to cut the shipping industry's greenhouse gas emissions at least in half by 2050. In fact, a revised goal put out earlier this year calls for the industry to reach net zero by mid-century.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biden's dog Commander has left the White House</title>
-      <link>https://www.npr.org/2023/10/04/1203808674/bidens-dog-commander-has-left-the-white-house</link>
-      <description>A previous version of this story incorrectly said the most recent biting incident was on Monday evening. In fact, it was the previous Monday, Sept. 25.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
