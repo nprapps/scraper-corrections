@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Nov 2023 15:02:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2023 16:02:51 +0000</lastBuildDate>
+    <item>
+      <title>Who's in the Army now? A pitch switch aims to get more military recruits</title>
+      <link>https://www.npr.org/2023/10/01/1199543004/recruitment-military</link>
+      <description>An earlier version of this story misspelled the first name of Lt. Col. Khrysten Grace as Kristen.</description>
+      <pubDate>Thu, 02 Nov 2023 16:02:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Poland's dangerous eastern border takes center stage in upcoming elections</title>
+      <link>https://www.npr.org/2023/10/02/1201688645/poland-belarus-migrants-border-wall-polish-election</link>
+      <description>A previous version of this story misspelled Bialowieza, the name of a forest and town in Poland.</description>
+      <pubDate>Thu, 02 Nov 2023 16:02:52 +0000</pubDate>
+    </item>
     <item>
       <title>The career and legacy of Sen. Dianne Feinstein</title>
       <link>https://www.npr.org/2023/09/29/1202753695/the-career-and-legacy-of-senator-dianne-feinstein</link>
@@ -356,18 +368,6 @@
       <description>A version of this story incorrectly labeled an image of an electric glass cooktop as an induction stove. The image has been removed and updated.
 
 A previous version of this story and its headline incorrectly stated there were six recommendations listed in the story.  There are actually five suggestions in the story.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>'Carterland' puts a positive spin on an oft-disparaged presidency</title>
-      <link>https://www.npr.org/2023/10/02/1202555558/carterland-movie-jimmy-carter</link>
-      <description>An earlier version of this story incorrectly said that President Jimmy Carter appointed Ben Bernanke to head the Federal Reserve. In fact, he appointed Paul Volcker.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Donald Trump's business fraud trial wraps up day one in New York</title>
-      <link>https://www.npr.org/2023/10/02/1202730320/trump-business-fraud-trial-new-york</link>
-      <description>A previous version of this story incorrectly included Ivanka Trump as among those who are accused of fraud. She is not.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
