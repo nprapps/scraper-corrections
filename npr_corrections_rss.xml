@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Nov 2023 14:02:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2023 15:02:53 +0000</lastBuildDate>
+    <item>
+      <title>The career and legacy of Sen. Dianne Feinstein</title>
+      <link>https://www.npr.org/2023/09/29/1202753695/the-career-and-legacy-of-senator-dianne-feinstein</link>
+      <description>A previous headline misspelled Sen. Dianne Feinstein's first name as Diane.</description>
+      <pubDate>Thu, 02 Nov 2023 15:02:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anger grows over Ukraine's largest Orthodox church, aligned with Moscow despite war</title>
+      <link>https://www.npr.org/2023/09/30/1201065400/ukraine-russian-orthodox-church-tensions</link>
+      <description>In a previous version of this story, we misidentified an image of a monastery in Kyiv and also inaccurately described the location of a protest rally in the Ukrainian capital.</description>
+      <pubDate>Thu, 02 Nov 2023 15:02:53 +0000</pubDate>
+    </item>
     <item>
       <title>The White House chief of staff says it's on House Republicans to avert a shutdown</title>
       <link>https://www.npr.org/2023/09/28/1202288527/biden-mccarthy-shutdown-zients</link>
@@ -356,18 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Donald Trump's business fraud trial wraps up day one in New York</title>
       <link>https://www.npr.org/2023/10/02/1202730320/trump-business-fraud-trial-new-york</link>
       <description>A previous version of this story incorrectly included Ivanka Trump as among those who are accused of fraud. She is not.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Poland's dangerous eastern border takes center stage in upcoming elections</title>
-      <link>https://www.npr.org/2023/10/02/1201688645/poland-belarus-migrants-border-wall-polish-election</link>
-      <description>A previous version of this story misspelled Bialowieza, the name of a forest and town in Poland.</description>
-      <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Who's in the Army now? A pitch switch aims to get more military recruits</title>
-      <link>https://www.npr.org/2023/10/01/1199543004/recruitment-military</link>
-      <description>An earlier version of this story misspelled the first name of Lt. Col. Khrysten Grace as Kristen.</description>
       <pubDate>Fri, 13 Oct 2023 19:29:58 +0000</pubDate>
     </item>
   </channel>
