@@ -7,7 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Nov 2023 02:09:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2023 03:02:42 +0000</lastBuildDate>
+    <item>
+      <title>Hundreds killed in explosion at a crowded Gaza hospital</title>
+      <link>https://www.npr.org/2023/10/17/1206282283/gaza-aid-israel-hamas-biden-visit</link>
+      <description>An earlier version of this story misstated the name of the hospital as the Ali Ahli Baptist Hospital in Gaza. The correct name is the Al Ahli Arab Hospital in Gaza.</description>
+      <pubDate>Fri, 03 Nov 2023 03:02:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bike riding in middle school may boost mental health, study finds</title>
+      <link>https://www.npr.org/sections/health-shots/2023/10/18/1206583788/bike-riding-in-middle-school-may-boost-mental-health-study-finds</link>
+      <description>An earlier version of this story referred to Dr. Allan Reiss as a neuropsychologist. He is in fact a neuropsychiatrist.</description>
+      <pubDate>Fri, 03 Nov 2023 03:02:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using AI, cartoonist Amy Kurzweil connects with deceased grandfather in 'Artificial'</title>
+      <link>https://www.npr.org/2023/10/19/1205898776/new-yorker-cartoonist-amy-kurzweils-graphic-memoir-artificial-a-love-story</link>
+      <description>An earlier version of this story incorrectly stated that Kristen Radtke was a cartoonist for the New Yorker. She's a graphic memoirist and the creative director of The Verge.</description>
+      <pubDate>Fri, 03 Nov 2023 03:02:42 +0000</pubDate>
+    </item>
     <item>
       <title>'Total War: Pharaoh' and 'Star Trek: Infinite': boldly going where we've been before</title>
       <link>https://www.npr.org/2023/10/12/1204955269/total-war-pharaoh-star-trek-infinite-strategy</link>
@@ -351,24 +369,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <link>https://www.npr.org/2023/10/23/1208009872/off-duty-pilot-attempted-to-shut-off-the-engines-in-flight-alaska-airlines</link>
       <description>In an earlier version of this story, we incorrectly reported that flight attendants were permitted to occupy a jump seat in the flight deck.</description>
       <pubDate>Tue, 24 Oct 2023 17:02:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Freed Israeli hostage: Hamas kidnapping was 'hell'</title>
-      <link>https://www.npr.org/2023/10/24/1208170863/israeli-hamas-gaza-hostages</link>
-      <description>NPR has updated this story to reflect a more accurate translation of Yocheved Lifshitz's statement describing her time in captivity as "hell," rather than a "nightmare" as previously published.</description>
-      <pubDate>Tue, 24 Oct 2023 16:02:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>Palestinians brace for more violence after reprisal attacks in the West Bank</title>
-      <link>https://www.npr.org/2023/10/20/1207543936/israel-palestine-hamas-west-bank</link>
-      <description>An earlier version of this story said a lawyer had told NPR of shootings of Palestinians.  In fact the lawyer told of shootings of Israelis.</description>
-      <pubDate>Sat, 21 Oct 2023 12:03:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Britney Spears memoir reaches bestseller status a week before it hits shelves</title>
-      <link>https://www.npr.org/2023/10/18/1206783968/britney-spears-book-the-woman-in-me-hits-bestseller-status</link>
-      <description>An earlier version of this story reference Spears' growing up in Mississippi. She was born there but grew up in Louisiana. The reference has been removed.</description>
-      <pubDate>Fri, 20 Oct 2023 18:02:42 +0000</pubDate>
     </item>
   </channel>
 </rss>
