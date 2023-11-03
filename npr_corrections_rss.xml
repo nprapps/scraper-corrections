@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Nov 2023 21:02:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2023 22:02:38 +0000</lastBuildDate>
+    <item>
+      <title>Six things to know about the political debate around daylight saving time</title>
+      <link>https://www.npr.org/2023/11/02/1210212060/daylight-saving-time-states-2023</link>
+      <description>An earlier version of this story said Samoa doesn't observe daylight saving time. In fact, American Samoa doesn't observe it.</description>
+      <pubDate>Fri, 03 Nov 2023 22:02:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investigators will travel to Antarctica after claims of sexual assault at U.S. bases</title>
+      <link>https://www.npr.org/2023/11/03/1210418182/antarctica-sexual-harassment-national-science-foundation-investigation</link>
+      <description>An earlier version of this story mistakenly said that investigators will be spending the next two weeks examining reports of sexual misconduct at U.S. research bases on Antarctica. Investigators will be arriving to prepare for a future on-site presence in Antarctica.</description>
+      <pubDate>Fri, 03 Nov 2023 22:02:39 +0000</pubDate>
+    </item>
     <item>
       <title>First Americans and other foreign nationals leave besieged Gaza</title>
       <link>https://www.npr.org/2023/11/01/1209859350/foreign-nationals-gaza-rafah-border</link>
@@ -357,18 +369,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <link>https://www.npr.org/2023/09/22/1197953092/the-wnbas-coming-out-story-plus-the-dangers-of-sports-betting</link>
       <description>An earlier version of this story suggested that New York has banned advertising of sports betting on college campuses. The New York State Gaming Commission has prohibited ads sent to people under the age of 21.</description>
       <pubDate>Thu, 02 Nov 2023 11:02:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>As Ukraine's war drags on and a D.C. shutdown looms, Zelenskyy makes his case for aid</title>
-      <link>https://www.npr.org/2023/09/21/1200674632/zelenskyy-washington-ukraine-funding-shutdown</link>
-      <description>The original version of this story correctly said that 29 Republican lawmakers signed a letter to the White House's budget director announcing they would oppose President Biden's $24 billion funding request. At one point, the story was mistakenly changed to say the letter had 28 signatories. The original figure of 29 signatories has been restored.</description>
-      <pubDate>Thu, 02 Nov 2023 10:02:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Remembering Olympic gold medalist Florence 'Flo-Jo' Griffith Joyner</title>
-      <link>https://www.npr.org/2023/09/21/1200371618/remembering-olympic-gold-medalist-florence-flo-jo-griffith-joyner</link>
-      <description>A previous photo caption incorrectly said Florence Griffith Joyner won a silver medal for the 200 meters at the 1988 Summer Olympic Games. In fact, she won silver for the 4x400 meter relay.</description>
-      <pubDate>Thu, 02 Nov 2023 10:02:51 +0000</pubDate>
     </item>
   </channel>
 </rss>
