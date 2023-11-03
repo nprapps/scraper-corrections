@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Nov 2023 14:02:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2023 15:02:54 +0000</lastBuildDate>
+    <item>
+      <title>'Everybody got it wrong': How did Israel fail to detect Hamas' planned invasion?</title>
+      <link>https://www.npr.org/2023/11/02/1210076717/everybody-got-it-wrong-how-did-israel-fail-to-detect-hamas-planned-invasion</link>
+      <description>In this interview, Terry Gross misidentified Mohammed bin Salman as the ruler of Iran. In fact, he is the crown prince of Saudi Arabia.</description>
+      <pubDate>Fri, 03 Nov 2023 15:02:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Malcolm X arrives — finally — at New York's Metropolitan Opera</title>
+      <link>https://www.npr.org/2023/11/03/1210208373/malcolm-x-opera</link>
+      <description>A previous version of this feature stated that the Metropolitan Opera has only presented one other opera by a Black composer previous to X. In fact, the Met has presented two operas by Terence Blanchard since 2021: Fire Shut Up in My Bones and Champion. Anthony Davis is still the second Black composer to have his work presented by the Met.</description>
+      <pubDate>Fri, 03 Nov 2023 15:02:54 +0000</pubDate>
+    </item>
     <item>
       <title>Tiny deer and rising seas: How climate change is testing the Endangered Species Act</title>
       <link>https://www.npr.org/2023/10/25/1198908368/florida-key-deer-endangered</link>
@@ -357,18 +369,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <link>https://www.npr.org/2023/09/20/1200705608/senate-tuberville-hold-military-promotions</link>
       <description>A previous version of this story said Gen. Eric Smith was confirmed in the Senate by an 83-11 vote. The nomination was approved 96-0.</description>
       <pubDate>Thu, 02 Nov 2023 09:02:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>First Americans and other foreign nationals leave besieged Gaza</title>
-      <link>https://www.npr.org/2023/11/01/1209859350/foreign-nationals-gaza-rafah-border</link>
-      <description>An earlier version of this story misspelled Wafa Elsaka's name.</description>
-      <pubDate>Thu, 02 Nov 2023 09:02:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>GOP presidential hopeful Doug Burgum says he'd leave abortion laws up to the states</title>
-      <link>https://www.npr.org/2023/09/20/1200378409/doug-burgum-president-candidate-2024</link>
-      <description>In an earlier version of the transcript, a question asked by Asma Khalid was incorrectly attributed to Susan Davis.</description>
-      <pubDate>Thu, 02 Nov 2023 08:03:01 +0000</pubDate>
     </item>
   </channel>
 </rss>
