@@ -7,7 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Nov 2023 03:02:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2023 04:02:48 +0000</lastBuildDate>
+    <item>
+      <title>Britney Spears memoir reaches bestseller status a week before it hits shelves</title>
+      <link>https://www.npr.org/2023/10/18/1206783968/britney-spears-book-the-woman-in-me-hits-bestseller-status</link>
+      <description>An earlier version of this story reference Spears' growing up in Mississippi. She was born there but grew up in Louisiana. The reference has been removed.</description>
+      <pubDate>Fri, 03 Nov 2023 04:02:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Palestinians brace for more violence after reprisal attacks in the West Bank</title>
+      <link>https://www.npr.org/2023/10/20/1207543936/israel-palestine-hamas-west-bank</link>
+      <description>An earlier version of this story said a lawyer had told NPR of shootings of Palestinians.  In fact the lawyer told of shootings of Israelis.</description>
+      <pubDate>Fri, 03 Nov 2023 04:02:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Freed Israeli hostage: Hamas kidnapping was 'hell'</title>
+      <link>https://www.npr.org/2023/10/24/1208170863/israeli-hamas-gaza-hostages</link>
+      <description>NPR has updated this story to reflect a more accurate translation of Yocheved Lifshitz's statement describing her time in captivity as "hell," rather than a "nightmare" as previously published.</description>
+      <pubDate>Fri, 03 Nov 2023 04:02:48 +0000</pubDate>
+    </item>
     <item>
       <title>Hundreds killed in explosion at a crowded Gaza hospital</title>
       <link>https://www.npr.org/2023/10/17/1206282283/gaza-aid-israel-hamas-biden-visit</link>
@@ -351,24 +369,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <link>https://www.npr.org/2023/10/29/1209307843/gaza-residents-break-into-u-n-warehouse-for-supplies-as-israeli-barrage-continue</link>
       <description>An earlier version of this story misidentified Benjamin Netanyahu as the president of Israel. Netanyahu is Israel's prime minister.</description>
       <pubDate>Sun, 29 Oct 2023 20:02:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jonathan Majors' trial for assault and harassment charges rescheduled again</title>
-      <link>https://www.npr.org/2023/10/25/1191589920/jonathan-majors-trial-assault-harassment-new-york</link>
-      <description>A previous version of this story said the incident that led to Jonathan Majors' arrest occurred in March 2022. In fact, it occurred in 2023.</description>
-      <pubDate>Wed, 25 Oct 2023 18:02:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>How IBM's gamble ushered in the computer age</title>
-      <link>https://www.npr.org/2023/10/23/1197956188/the-indicator-watson-jr-ibm-big-gamble</link>
-      <description>In a previous version of this episode, we stated that Thomas Watson Jr. fought on the side of the United States in World War II while IBM, under his father's leadership, was doing business with the Nazi regime. As a World War II pilot, Watson didn't fight in combat missions, but some of his missions did take him through combat zones where he faced enemy fire. And while IBM did sell technology to the Nazi government in the years leading up to the U.S.'s involvement in World War II, by the time the U.S. entered the war and Watson was serving in the war, the German government had seized the assets of American companies, curtailing IBM's control over its German operations.</description>
-      <pubDate>Wed, 25 Oct 2023 00:08:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>An off-duty pilot attempted to shut off the engines in flight, Alaska Airlines says</title>
-      <link>https://www.npr.org/2023/10/23/1208009872/off-duty-pilot-attempted-to-shut-off-the-engines-in-flight-alaska-airlines</link>
-      <description>In an earlier version of this story, we incorrectly reported that flight attendants were permitted to occupy a jump seat in the flight deck.</description>
-      <pubDate>Tue, 24 Oct 2023 17:02:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
