@@ -7,7 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Nov 2023 04:02:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2023 05:02:41 +0000</lastBuildDate>
+    <item>
+      <title>An off-duty pilot attempted to shut off the engines in flight, Alaska Airlines says</title>
+      <link>https://www.npr.org/2023/10/23/1208009872/off-duty-pilot-attempted-to-shut-off-the-engines-in-flight-alaska-airlines</link>
+      <description>In an earlier version of this story, we incorrectly reported that flight attendants were permitted to occupy a jump seat in the flight deck.</description>
+      <pubDate>Fri, 03 Nov 2023 05:02:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>How IBM's gamble ushered in the computer age</title>
+      <link>https://www.npr.org/2023/10/23/1197956188/the-indicator-watson-jr-ibm-big-gamble</link>
+      <description>In a previous version of this episode, we stated that Thomas Watson Jr. fought on the side of the United States in World War II while IBM, under his father's leadership, was doing business with the Nazi regime. As a World War II pilot, Watson didn't fight in combat missions, but some of his missions did take him through combat zones where he faced enemy fire. And while IBM did sell technology to the Nazi government in the years leading up to the U.S.'s involvement in World War II, by the time the U.S. entered the war and Watson was serving in the war, the German government had seized the assets of American companies, curtailing IBM's control over its German operations.</description>
+      <pubDate>Fri, 03 Nov 2023 05:02:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jonathan Majors' trial for assault and harassment charges rescheduled again</title>
+      <link>https://www.npr.org/2023/10/25/1191589920/jonathan-majors-trial-assault-harassment-new-york</link>
+      <description>A previous version of this story said the incident that led to Jonathan Majors' arrest occurred in March 2022. In fact, it occurred in 2023.</description>
+      <pubDate>Fri, 03 Nov 2023 05:02:41 +0000</pubDate>
+    </item>
     <item>
       <title>Britney Spears memoir reaches bestseller status a week before it hits shelves</title>
       <link>https://www.npr.org/2023/10/18/1206783968/britney-spears-book-the-woman-in-me-hits-bestseller-status</link>
@@ -351,24 +369,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <link>https://www.npr.org/2023/10/31/1209464901/education-department-punishes-student-loan-servicer-billing-mistakes-mohela</link>
       <description>A previous version of this digital story incorrectly identified MOHELA as the largest federal student loan servicer. In fact, it is one of the largest loan servicers.</description>
       <pubDate>Tue, 31 Oct 2023 20:02:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Three Faces of Ataturk</title>
-      <link>https://www.npr.org/2023/10/26/1198908163/the-three-faces-of-ataturk</link>
-      <description>An earlier version of this episode incorrectly said that the word "genocide" was first used to describe actions taken by Ottomans against Armenians. Most historians view the series of massacres and displacements of Armenians started by Ottoman forces in 1915 as a "genocide,"but the word "genocide" was not coined until 1944. Turkey denies the label, "genocide," and says the deaths came amid widespread regional conflict.</description>
-      <pubDate>Tue, 31 Oct 2023 00:08:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>'The Unmarked Graveyard' digs into the mysteries surrounding author Dawn Powell</title>
-      <link>https://www.npr.org/2023/10/28/1209273923/the-unmarked-graveyard-digs-into-the-mysteries-surrounding-author-dawn-powell</link>
-      <description>A previous version of this story incorrectly stated that today, Dawn Powell's son would be diagnosed as having cerebral palsy and schizophrenia. Per Powell's biographer, Tim Page, today Dawn Powell's son would actually be diagnosed with autism.</description>
-      <pubDate>Tue, 31 Oct 2023 00:08:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gaza residents break into U.N. warehouse for supplies as Israeli barrage continues</title>
-      <link>https://www.npr.org/2023/10/29/1209307843/gaza-residents-break-into-u-n-warehouse-for-supplies-as-israeli-barrage-continue</link>
-      <description>An earlier version of this story misidentified Benjamin Netanyahu as the president of Israel. Netanyahu is Israel's prime minister.</description>
-      <pubDate>Sun, 29 Oct 2023 20:02:39 +0000</pubDate>
     </item>
   </channel>
 </rss>
