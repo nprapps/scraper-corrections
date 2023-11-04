@@ -2,9 +2,14 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 from datetime import datetime
+import pytz
 import os
 import feedparser
-import pytz
+
+# Timezone adjustment (this can be removed if you're not using it)
+eastern_timezone = pytz.timezone('US/Eastern')
+current_utc_time = datetime.now(pytz.utc)
+current_et_time = current_utc_time.astimezone(eastern_timezone)
 
 # URL to scrape
 URL = 'https://www.npr.org/corrections/'
@@ -16,12 +21,14 @@ soup = BeautifulSoup(response.content, 'html.parser')
 # Initialize FeedGenerator
 fg = FeedGenerator()
 fg.id(URL)
-fg.title('NPR Corrector Bot')
+fg.title('NPR Correctifier Bot')
 fg.author({'name': 'NPR', 'email': 'hmorris@npr.org'})
 fg.link(href=URL, rel='alternate')
 fg.subtitle('Corrections from NPR')
 fg.language('en')
-fg.lastBuildDate(datetime.utcnow().replace(tzinfo=pytz.utc))
+fg.lastBuildDate(current_utc_time)
+
+# ... [Previous part of the code remains unchanged]
 
 # 1. Parse new corrections
 new_entries = []
@@ -31,14 +38,15 @@ for correction in soup.find_all('div', class_='item-info')[:60]:
     story_title = title_link.text.strip()
     story_link = title_link['href']
     correction_content_div = correction.find('div', class_='correction-content')
-    correction_texts = [p.text for p in correction_content_div.find_all('p')]
-    correction_text = "\n\n".join(correction_texts).strip()
+    current_datetime = datetime.now()
+    formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S +0000')
+    correction_text = correction_content_div.find('p').text.strip()
 
     new_entries.append({
         'title': story_title,
         'link': story_link,
         'description': correction_text,
-        'published': datetime.utcnow().timestamp()  # Current time as timestamp
+        'published': formatted_date
     })
 
 # 2. Read old entries from the existing RSS feed file
@@ -47,33 +55,32 @@ old_feed_entries = []
 if os.path.exists('npr_corrections_rss.xml'):
     old_feed = feedparser.parse('npr_corrections_rss.xml')
     for entry in old_feed.entries:
-        # Convert the string date to a datetime object and then to a timestamp for sorting
-        published_date = datetime.strptime(entry.published, '%a, %d %b %Y %H:%M:%S %z')
         old_feed_entries.append({
             'title': entry.title,
             'link': entry.link,
             'description': entry.description,
-            'published': published_date.timestamp()
+            'published': entry.published
         })
 
-existing_links = {entry['link'] for entry in old_feed_entries}
+# 3. Compare and Add Entries to the RSS Feed
+old_links = [entry['link'] for entry in old_feed_entries]
 
-# 3. Process and add the new entries to a combined list
-combined_entries = new_entries + [entry for entry in old_feed_entries if entry['link'] not in existing_links]
+# First, add entries that are NEW (not in the old feed)
+for entry_data in reversed(new_entries):
+    if entry_data['link'] not in old_links:
+        entry = fg.add_entry(order='prepend')
+        entry.title(entry_data['title'])
+        entry.link(href=entry_data['link'], rel='alternate')
+        entry.description(entry_data['description'])
+        entry.published(entry_data['published'])
 
-# Sort combined_entries in reverse chronological order based on the 'published' key
-combined_entries.sort(key=lambda x: x['published'], reverse=True)
-
-# Limit to 60 entries
-combined_entries = combined_entries[:60]
-
-# Add entries to the FeedGenerator
-for entry_data in combined_entries:
-    entry = fg.add_entry()
+# Then, add all old entries
+for entry_data in old_feed_entries:
+    entry = fg.add_entry(order='append')
     entry.title(entry_data['title'])
     entry.link(href=entry_data['link'], rel='alternate')
     entry.description(entry_data['description'])
-    entry.published(datetime.utcfromtimestamp(entry_data['published']).replace(tzinfo=pytz.utc).isoformat())
+    entry.published(entry_data['published'])
 
 # Generate RSS feed
 rssfeed = fg.rss_str(pretty=True)
