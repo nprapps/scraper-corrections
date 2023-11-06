@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>NPR Correctifier Bot</title>
+    <title>NPR Corrector Bot</title>
     <link>https://www.npr.org/corrections/</link>
     <description>Corrections from NPR</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Nov 2023 19:02:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Nov 2023 19:27:33 +0000</lastBuildDate>
     <item>
       <title>The FDA expands the recall of apple cinnamon fruit pouches over lead concerns</title>
       <link>https://www.npr.org/2023/10/31/1209685022/wanabana-fruit-pouches-lead-fda</link>
@@ -368,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>The WNBA's coming out story; plus, the dangers of sports betting</title>
       <link>https://www.npr.org/2023/09/22/1197953092/the-wnbas-coming-out-story-plus-the-dangers-of-sports-betting</link>
       <description>An earlier version of this story suggested that New York has banned advertising of sports betting on college campuses. The New York State Gaming Commission has prohibited ads sent to people under the age of 21.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>'Sex Education' teaches valuable lessons in empathy</title>
-      <link>https://www.npr.org/2023/09/22/1197954209/sex-education-teaches-valuable-lessons-in-empathy</link>
-      <description>A previous version of this episode incorrectly said that in Dreaming Whilst Black, Adjani Salmon plays Kwabena, an aspiring filmmaker living with his brother and sister-in-law. In fact, Kwabena lives with his cousin and cousin's wife.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>

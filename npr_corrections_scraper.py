@@ -21,7 +21,7 @@ soup = BeautifulSoup(response.content, 'html.parser')
 # Initialize FeedGenerator
 fg = FeedGenerator()
 fg.id(URL)
-fg.title('NPR Correctifier Bot')
+fg.title('NPR Corrector Bot')
 fg.author({'name': 'NPR', 'email': 'hmorris@npr.org'})
 fg.link(href=URL, rel='alternate')
 fg.subtitle('Corrections from NPR')
@@ -40,7 +40,8 @@ for correction in soup.find_all('div', class_='item-info')[:60]:
     correction_content_div = correction.find('div', class_='correction-content')
     current_datetime = datetime.now()
     formatted_date = current_datetime.strftime('%a, %d %b %Y %H:%M:%S +0000')
-    correction_text = correction_content_div.find('p').text.strip()
+    correction_texts = [p.text for p in correction_content_div.find_all('p')]
+    correction_text = "\n\n".join(correction_texts).strip()
 
     new_entries.append({
         'title': story_title,
@@ -63,11 +64,18 @@ if os.path.exists('npr_corrections_rss.xml'):
         })
 
 # 3. Compare and Add Entries to the RSS Feed
-old_links = [entry['link'] for entry in old_feed_entries]
+
+old_identifiers = [(entry['link'], entry['description']) for entry in old_feed_entries]
+
+added_count = 0  # This will keep track of the total entries added to the RSS feed
 
 # First, add entries that are NEW (not in the old feed)
 for entry_data in reversed(new_entries):
-    if entry_data['link'] not in old_links:
+    if added_count >= 60:
+        break  # Stop adding if we've already added 60 entries
+    identifier = (entry_data['link'], entry_data['description'])
+    if identifier not in old_identifiers:
+        added_count += 1
         entry = fg.add_entry(order='prepend')
         entry.title(entry_data['title'])
         entry.link(href=entry_data['link'], rel='alternate')
@@ -76,6 +84,9 @@ for entry_data in reversed(new_entries):
 
 # Then, add all old entries
 for entry_data in old_feed_entries:
+    if added_count >= 60:
+        break  # Stop adding if we've already added 60 entries
+    added_count += 1
     entry = fg.add_entry(order='append')
     entry.title(entry_data['title'])
     entry.link(href=entry_data['link'], rel='alternate')
