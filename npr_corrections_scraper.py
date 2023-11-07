@@ -65,7 +65,7 @@ if os.path.exists('npr_corrections_rss.xml'):
 
 # 3. Compare and Add Entries to the RSS Feed
 
-old_identifiers = [(entry['link'], entry['description']) for entry in old_feed_entries]
+old_identifiers = [(entry['link']) for entry in old_feed_entries]
 
 added_count = 0  # This will keep track of the total entries added to the RSS feed
 
@@ -73,7 +73,7 @@ added_count = 0  # This will keep track of the total entries added to the RSS fe
 for entry_data in reversed(new_entries):
     if added_count >= 60:
         break  # Stop adding if we've already added 60 entries
-    identifier = (entry_data['link'], entry_data['description'])
+    identifier = (entry_data['link'])
     if identifier not in old_identifiers:
         added_count += 1
         entry = fg.add_entry(order='prepend')
