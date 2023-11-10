@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Nov 2023 21:02:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Nov 2023 22:02:31 +0000</lastBuildDate>
+    <item>
+      <title>Arab American comic Dina Hashem has a debut special — but the timing is 'tricky'</title>
+      <link>https://www.npr.org/2023/11/10/1212124974/dina-hashem-dark-little-whispers</link>
+      <description>In a previous version of the web story, we incorrectly said Dina Hashem was currently writing for the Max comedy The Sex Lives of College Girls. Hashem has written for the show in the past, but is not currently writing for it.</description>
+      <pubDate>Fri, 10 Nov 2023 22:02:31 +0000</pubDate>
+    </item>
     <item>
       <title>Apollo astronaut Frank Borman, who first orbited moon, dies at age 95</title>
       <link>https://www.npr.org/2023/11/09/953342565/nasa-apollo-gemini-astronaut-frank-borman-dies</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>The career and legacy of Sen. Dianne Feinstein</title>
       <link>https://www.npr.org/2023/09/29/1202753695/the-career-and-legacy-of-senator-dianne-feinstein</link>
       <description>A previous headline misspelled Sen. Dianne Feinstein's first name as Diane.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trump's N.Y. business empire is 'greatly at risk' from judge's fraud ruling</title>
-      <link>https://www.npr.org/2023/09/29/1202534656/trump-fraud-ruling-new-york-business-empire-judge</link>
-      <description>A previous version of this story misspelled John Coffee's surname as Coffey.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
