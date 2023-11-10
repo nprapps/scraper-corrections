@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Nov 2023 23:02:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Nov 2023 00:08:33 +0000</lastBuildDate>
+    <item>
+      <title>Apollo astronaut Frank Borman, who first orbited moon, dies at age 95</title>
+      <link>https://www.npr.org/2023/11/09/953342565/nasa-apollo-gemini-astronaut-frank-borman-dies</link>
+      <description>Due to a photo caption error, the order of the Apollo 8 crew was incorrect. The proper order is Frank Borman, Jim Lovell and Bill Anders.</description>
+      <pubDate>Fri, 10 Nov 2023 00:08:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Democrats — and abortion rights — dominated the 2023 elections. Here are 5 takeaways</title>
+      <link>https://www.npr.org/2023/11/08/1211607431/2023-election-takeaways-abortion-ohio-virginia-kentucky</link>
+      <description>The name of the Democratic candidate running for Mississippi governor was misspelled in a previous version about the election. The correct spelling is Brandon Presley.</description>
+      <pubDate>Fri, 10 Nov 2023 00:08:33 +0000</pubDate>
+    </item>
     <item>
       <title>Youths say boredom and basic needs landed them at Maryland detention centers</title>
       <link>https://www.npr.org/2023/11/06/1209681901/youths-say-boredom-and-basic-needs-landed-them-at-maryland-detention-centers</link>
@@ -356,18 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Trump's N.Y. business empire is 'greatly at risk' from judge's fraud ruling</title>
       <link>https://www.npr.org/2023/09/29/1202534656/trump-fraud-ruling-new-york-business-empire-judge</link>
       <description>A previous version of this story misspelled John Coffee's surname as Coffey.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>The White House chief of staff says it's on House Republicans to avert a shutdown</title>
-      <link>https://www.npr.org/2023/09/28/1202288527/biden-mccarthy-shutdown-zients</link>
-      <description>A previous version of this story incorrectly said that a government shutdown — rather than proposed budget cuts from House Republicans — would hurt seniors who rely on Meals on Wheels and families with kids in Head Start programs.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>What a government shutdown would mean for the U.S. military — and national security</title>
-      <link>https://www.npr.org/2023/09/27/1201956915/government-shutdown-us-military-national-security</link>
-      <description>This story has been updated to reflect that Coast Guard members did not get paid during the 2018-2019 government shutdown.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
