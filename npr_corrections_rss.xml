@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Nov 2023 19:02:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Nov 2023 20:02:41 +0000</lastBuildDate>
+    <item>
+      <title>Researchers rediscover an echidna named after David Attenborough</title>
+      <link>https://www.npr.org/2023/11/11/1212440524/echidna-attenborough</link>
+      <description>This story previously said the Cyclops Mountains were located in the island country of Papua New Guinea. The mountains are located in the Papua province of Indonesia.</description>
+      <pubDate>Sat, 11 Nov 2023 20:02:41 +0000</pubDate>
+    </item>
     <item>
       <title>Arab American comic Dina Hashem has a debut special — but the timing is 'tricky'</title>
       <link>https://www.npr.org/2023/11/10/1212124974/dina-hashem-dark-little-whispers</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Anger grows over Ukraine's largest Orthodox church, aligned with Moscow despite war</title>
       <link>https://www.npr.org/2023/09/30/1201065400/ukraine-russian-orthodox-church-tensions</link>
       <description>In a previous version of this story, we misidentified an image of a monastery in Kyiv and also inaccurately described the location of a protest rally in the Ukrainian capital.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>The career and legacy of Sen. Dianne Feinstein</title>
-      <link>https://www.npr.org/2023/09/29/1202753695/the-career-and-legacy-of-senator-dianne-feinstein</link>
-      <description>A previous headline misspelled Sen. Dianne Feinstein's first name as Diane.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
