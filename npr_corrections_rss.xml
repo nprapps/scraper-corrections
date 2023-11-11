@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Nov 2023 21:02:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Nov 2023 22:02:28 +0000</lastBuildDate>
+    <item>
+      <title>Why the fight to counter false election claims may be harder in 2024</title>
+      <link>https://www.npr.org/2023/11/10/1211929764/election-false-claims-social-media-cisa-trump</link>
+      <description>A previous version of this story incorrectly said Eddie Perez left Twitter in November 2022. He left in September 2022.</description>
+      <pubDate>Sat, 11 Nov 2023 22:02:29 +0000</pubDate>
+    </item>
     <item>
       <title>Researchers rediscover an echidna named after David Attenborough</title>
       <link>https://www.npr.org/2023/11/11/1212440524/echidna-attenborough</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Who's in the Army now? A pitch switch aims to get more military recruits</title>
       <link>https://www.npr.org/2023/10/01/1199543004/recruitment-military</link>
       <description>An earlier version of this story misspelled the first name of Lt. Col. Khrysten Grace as Kristen.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anger grows over Ukraine's largest Orthodox church, aligned with Moscow despite war</title>
-      <link>https://www.npr.org/2023/09/30/1201065400/ukraine-russian-orthodox-church-tensions</link>
-      <description>In a previous version of this story, we misidentified an image of a monastery in Kyiv and also inaccurately described the location of a protest rally in the Ukrainian capital.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
