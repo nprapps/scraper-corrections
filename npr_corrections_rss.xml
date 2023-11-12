@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Nov 2023 16:02:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Nov 2023 17:02:33 +0000</lastBuildDate>
+    <item>
+      <title>Many generic drugs are in short supply</title>
+      <link>https://www.npr.org/2023/11/11/1212465756/many-generic-drugs-are-in-short-supply</link>
+      <description>In this broadcast report, we incorrectly refer to oncologist Yoram Unguru as Thomas Unguru.</description>
+      <pubDate>Sun, 12 Nov 2023 17:02:33 +0000</pubDate>
+    </item>
     <item>
       <title>Why the fight to counter false election claims may be harder in 2024</title>
       <link>https://www.npr.org/2023/11/10/1211929764/election-false-claims-social-media-cisa-trump</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Poland's dangerous eastern border takes center stage in upcoming elections</title>
       <link>https://www.npr.org/2023/10/02/1201688645/poland-belarus-migrants-border-wall-polish-election</link>
       <description>A previous version of this story misspelled Bialowieza, the name of a forest and town in Poland.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Who's in the Army now? A pitch switch aims to get more military recruits</title>
-      <link>https://www.npr.org/2023/10/01/1199543004/recruitment-military</link>
-      <description>An earlier version of this story misspelled the first name of Lt. Col. Khrysten Grace as Kristen.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
