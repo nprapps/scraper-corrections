@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Nov 2023 21:02:43 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2023 22:02:32 +0000</lastBuildDate>
+    <item>
+      <title>Bass Reeves deserves better — 'Lawmen' doesn't do justice to the Black U.S. marshal</title>
+      <link>https://www.npr.org/2023/11/03/1210170873/lawmen-bass-reeves-review-black-u-s-marshal</link>
+      <description>A previous version of this story incorrectly said that, in the show, Reeves killed a Black man fighting for the Confederate Army. The Black man was killed by another Confederate soldier.</description>
+      <pubDate>Tue, 14 Nov 2023 22:02:33 +0000</pubDate>
+    </item>
     <item>
       <title>Curbside trash is a problem in NYC. Officials have a not-so-novel fix: plastic bins</title>
       <link>https://www.npr.org/2023/11/09/1210494331/trash-problem-nyc-fix-plastic-bins</link>
@@ -362,12 +368,6 @@
       <description>A version of this story incorrectly labeled an image of an electric glass cooktop as an induction stove. The image has been removed and updated.
 
 A previous version of this story and its headline incorrectly stated there were six recommendations listed in the story.  There are actually five suggestions in the story.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>'Carterland' puts a positive spin on an oft-disparaged presidency</title>
-      <link>https://www.npr.org/2023/10/02/1202555558/carterland-movie-jimmy-carter</link>
-      <description>An earlier version of this story incorrectly said that President Jimmy Carter appointed Ben Bernanke to head the Federal Reserve. In fact, he appointed Paul Volcker.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
