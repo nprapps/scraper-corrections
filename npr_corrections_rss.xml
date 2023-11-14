@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Nov 2023 16:02:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2023 17:02:41 +0000</lastBuildDate>
+    <item>
+      <title>Curbside trash is a problem in NYC. Officials have a not-so-novel fix: plastic bins</title>
+      <link>https://www.npr.org/2023/11/09/1210494331/trash-problem-nyc-fix-plastic-bins</link>
+      <description>An earlier version of this story misstated the first name of Patricia Strach as Barbara.</description>
+      <pubDate>Tue, 14 Nov 2023 17:02:41 +0000</pubDate>
+    </item>
     <item>
       <title>Kidnap of Liverpool soccer star's father puts harsh light on Colombian peace talks</title>
       <link>https://www.npr.org/2023/11/11/1212502199/kidnap-of-liverpool-soccer-star-puts-harsh-light-on-colombia-peace-talks-with-re</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>'Carterland' puts a positive spin on an oft-disparaged presidency</title>
       <link>https://www.npr.org/2023/10/02/1202555558/carterland-movie-jimmy-carter</link>
       <description>An earlier version of this story incorrectly said that President Jimmy Carter appointed Ben Bernanke to head the Federal Reserve. In fact, he appointed Paul Volcker.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Donald Trump's business fraud trial wraps up day one in New York</title>
-      <link>https://www.npr.org/2023/10/02/1202730320/trump-business-fraud-trial-new-york</link>
-      <description>A previous version of this story incorrectly included Ivanka Trump as among those who are accused of fraud. She is not.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
