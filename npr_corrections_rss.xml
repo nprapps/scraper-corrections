@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Nov 2023 23:02:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2023 00:08:30 +0000</lastBuildDate>
+    <item>
+      <title>Kidnap of Liverpool soccer star's father puts harsh light on Colombian peace talks</title>
+      <link>https://www.npr.org/2023/11/11/1212502199/kidnap-of-liverpool-soccer-star-puts-harsh-light-on-colombia-peace-talks-with-re</link>
+      <description>A previous headline for this story incorrectly stated that Luis Diaz was the one kidnapped. It was his father, Luis Manuel Diaz. The headline has been updated.</description>
+      <pubDate>Tue, 14 Nov 2023 00:08:31 +0000</pubDate>
+    </item>
     <item>
       <title>Many generic drugs are in short supply</title>
       <link>https://www.npr.org/2023/11/11/1212465756/many-generic-drugs-are-in-short-supply</link>
@@ -362,12 +368,6 @@ A previous version of this story and its headline incorrectly stated there were 
       <title>Donald Trump's business fraud trial wraps up day one in New York</title>
       <link>https://www.npr.org/2023/10/02/1202730320/trump-business-fraud-trial-new-york</link>
       <description>A previous version of this story incorrectly included Ivanka Trump as among those who are accused of fraud. She is not.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Poland's dangerous eastern border takes center stage in upcoming elections</title>
-      <link>https://www.npr.org/2023/10/02/1201688645/poland-belarus-migrants-border-wall-polish-election</link>
-      <description>A previous version of this story misspelled Bialowieza, the name of a forest and town in Poland.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
