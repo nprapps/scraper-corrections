@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Nov 2023 16:02:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Nov 2023 17:02:36 +0000</lastBuildDate>
+    <item>
+      <title>Israel says its troops have entered Al-Shifa Hospital in Gaza City</title>
+      <link>https://www.npr.org/2023/11/14/1212845254/gaza-hospitals-update-israel-hamas-war</link>
+      <description>This story has been updated to more clearly explain the White House's allegations that Hamas has operated from a network of tunnels below hospitals in Gaza.</description>
+      <pubDate>Wed, 15 Nov 2023 17:02:36 +0000</pubDate>
+    </item>
     <item>
       <title>Bass Reeves deserves better — 'Lawmen' doesn't do justice to the Black U.S. marshal</title>
       <link>https://www.npr.org/2023/11/03/1210170873/lawmen-bass-reeves-review-black-u-s-marshal</link>
@@ -360,14 +366,6 @@
       <title>How did we come to live extremely online? Mommy bloggers, says one writer</title>
       <link>https://www.npr.org/2023/10/03/1203033527/how-did-we-come-to-live-extremely-online-mommy-bloggers-says-one-writer</link>
       <description>An earlier version of this story incorrectly used "kid" instead of "kids" in a quote from Taylor Lorenz</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>These 5 big purchases can save energy — and money — at home</title>
-      <link>https://www.npr.org/2023/10/03/1196977935/save-money-energy-tips</link>
-      <description>A version of this story incorrectly labeled an image of an electric glass cooktop as an induction stove. The image has been removed and updated.
-
-A previous version of this story and its headline incorrectly stated there were six recommendations listed in the story.  There are actually five suggestions in the story.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
