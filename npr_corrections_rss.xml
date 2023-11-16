@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Nov 2023 19:02:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Nov 2023 20:02:40 +0000</lastBuildDate>
+    <item>
+      <title>The audience has a lot to say about coverage of the Israel-Hamas war. We're listening</title>
+      <link>https://www.npr.org/sections/publiceditor/2023/11/02/1210335919/the-audience-has-a-lot-to-say-about-coverage-of-the-israel-hamas-war-were-listen</link>
+      <description>A previous version of this story incorrectly described On Point as a show distributed by NPR. It is distributed by American Public Media.</description>
+      <pubDate>Thu, 16 Nov 2023 20:02:41 +0000</pubDate>
+    </item>
     <item>
       <title>Israel says its troops have entered Al-Shifa Hospital in Gaza City</title>
       <link>https://www.npr.org/2023/11/14/1212845254/gaza-hospitals-update-israel-hamas-war</link>
@@ -360,12 +366,6 @@
       <title>Patrick Stewart says his time on 'Star Trek' felt like a ministry</title>
       <link>https://www.npr.org/2023/10/04/1203298903/patrick-stewart-star-trek-ministry-picard</link>
       <description>This story has been updated to replace a photo of Patrick Stewart in costume as Jean Luc Picard that had been reversed by the agency that provided it.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>How did we come to live extremely online? Mommy bloggers, says one writer</title>
-      <link>https://www.npr.org/2023/10/03/1203033527/how-did-we-come-to-live-extremely-online-mommy-bloggers-says-one-writer</link>
-      <description>An earlier version of this story incorrectly used "kid" instead of "kids" in a quote from Taylor Lorenz</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
