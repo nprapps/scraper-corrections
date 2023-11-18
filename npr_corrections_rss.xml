@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Nov 2023 07:02:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Nov 2023 08:02:43 +0000</lastBuildDate>
+    <item>
+      <title>One sister survived cancer. Five years later, the other one is still processing it</title>
+      <link>https://www.npr.org/2023/10/10/1204800583/the-struggles-faced-by-the-siblings-of-cancer-survivors-are-often-overlooked</link>
+      <description>A previous version of the broadcast story stated that next month Kristin Long at Boston University will host a convention for siblings like Kayla and Ella in Chicago. The convention is focused on how to support siblings like them.</description>
+      <pubDate>Sat, 18 Nov 2023 08:02:43 +0000</pubDate>
+    </item>
     <item>
       <title>He watched his family get taken by Hamas fighters. Now he wants Israel to fight back</title>
       <link>https://www.npr.org/2023/10/10/1204800604/israeli-hostages-seized-by-hamas-include-a-mother-and-her-children</link>
@@ -360,12 +366,6 @@
       <title>Migrant mothers arriving in New York find support, hope — and lots of challenges</title>
       <link>https://www.npr.org/2023/10/10/1204273159/migrant-mothers-new-york-bellevue-womens-health-pregnancy</link>
       <description>A previous version of the captions in this story referred to a maternity care unit at the Roosevelt Hotel in New York City. The hotel hosts a medical clinic.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Writers union votes to ratify contract, ending one of Hollywood's longest strikes</title>
-      <link>https://www.npr.org/2023/10/10/1204754706/writers-union-votes-to-ratify-contract-ending-one-of-hollywoods-longest-strikes</link>
-      <description>Many NPR newsroom staff are members of SAG-AFTRA but are not part of the bargaining unit that is striking.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
