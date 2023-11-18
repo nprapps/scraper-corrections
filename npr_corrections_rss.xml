@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Nov 2023 10:02:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Nov 2023 11:02:22 +0000</lastBuildDate>
+    <item>
+      <title>The sexual assault victims suing Uber notch a legal victory in their long battle</title>
+      <link>https://www.npr.org/2023/10/11/1205135476/sexual-assault-victims-suing-uber-notch-a-legal-victory-in-long-battle</link>
+      <description>A previous version of this story incorrectly cited Uber's data on sexual assault and rape as "incidents," rather than "reported incidents."</description>
+      <pubDate>Sat, 18 Nov 2023 11:02:22 +0000</pubDate>
+    </item>
     <item>
       <title>Migrant mothers arriving in New York find support, hope — and lots of challenges</title>
       <link>https://www.npr.org/2023/10/10/1204273159/migrant-mothers-new-york-bellevue-womens-health-pregnancy</link>
@@ -360,12 +366,6 @@
       <title>Scalise drops out of race for speaker of the House, leaving Congress in limbo</title>
       <link>https://www.npr.org/2023/10/12/1205627746/scalise-drops-out-of-race-for-speaker-of-the-house-leaving-congress-in-limbo</link>
       <description>An earlier version of this story mistakenly said Rep. Steve Scalise defeated Rep. Jim Jordan in a 110-99 vote for House Republicans' speaker nominee. In fact, the vote was 113-99.</description>
-      <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>'Total War: Pharaoh' and 'Star Trek: Infinite': boldly going where we've been before</title>
-      <link>https://www.npr.org/2023/10/12/1204955269/total-war-pharaoh-star-trek-infinite-strategy</link>
-      <description>An earlier version of this story misstated the name of the fictional Star Trek species Cardassian as Cassardian.</description>
       <pubDate>Sat, 04 Nov 2023 18:03:16 +0000</pubDate>
     </item>
   </channel>
