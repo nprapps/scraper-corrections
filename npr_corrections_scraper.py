@@ -65,18 +65,29 @@ if os.path.exists('npr_corrections_rss.xml'):
 
 # 3. Compare and Add Entries to the RSS Feed
 
-# Combine new and old entries
-all_entries = new_entries + old_feed_entries
+old_identifiers = [(entry['link']) for entry in old_feed_entries]
 
-# Sort the entries by published date in ascending order
-all_entries.sort(key=lambda x: datetime.strptime(x['published'], '%a, %d %b %Y %H:%M:%S +0000'))
+added_count = 0  # This will keep track of the total entries added to the RSS feed
 
-# Keep only the last 60 entries
-last_sixty_entries = all_entries[-60:]
+# First, add entries that are NEW (not in the old feed)
+for entry_data in reversed(new_entries):
+    if added_count >= 60:
+        break  # Stop adding if we've already added 60 entries
+    identifier = (entry_data['link'])
+    if identifier not in old_identifiers:
+        added_count += 1
+        entry = fg.add_entry(order='prepend')
+        entry.title(entry_data['title'])
+        entry.link(href=entry_data['link'], rel='alternate')
+        entry.description(entry_data['description'])
+        entry.published(entry_data['published'])
 
-# Add these entries to the feed in reverse order (to maintain reverse chronological order)
-for entry_data in reversed(last_sixty_entries):
-    entry = fg.add_entry()
+# Then, add all old entries
+for entry_data in old_feed_entries:
+    if added_count >= 60:
+        break  # Stop adding if we've already added 60 entries
+    added_count += 1
+    entry = fg.add_entry(order='append')
     entry.title(entry_data['title'])
     entry.link(href=entry_data['link'], rel='alternate')
     entry.description(entry_data['description'])
