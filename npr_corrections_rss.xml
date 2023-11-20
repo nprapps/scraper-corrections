@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Nov 2023 07:02:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Nov 2023 08:03:23 +0000</lastBuildDate>
+    <item>
+      <title>F1 Las Vegas Grand Prix moves ahead after opening-night debacle</title>
+      <link>https://www.npr.org/2023/11/18/1213988792/formula-1-las-vegas-water-valve-cover</link>
+      <description>An earlier version of this story incorrectly said the race was scheduled for Sunday at 10 p.m. local time. It is scheduled for 10 p.m. local time Saturday.</description>
+      <pubDate>Mon, 20 Nov 2023 08:03:23 +0000</pubDate>
+    </item>
     <item>
       <title>Africa's flourishing art scene is a smash hit at Art X</title>
       <link>https://www.npr.org/sections/goatsandsoda/2023/11/18/1212950660/africas-flourishing-art-scene-is-a-smash-hit-at-art-x</link>
@@ -360,12 +366,6 @@
       <title>New technology uses good old-fashioned wind to power giant cargo vessels</title>
       <link>https://www.npr.org/2023/10/05/1200788439/wind-power-cargo-ships-carbon-emissions</link>
       <description>Previous audio and digital versions of this story said the IMO's goal was to cut the shipping industry's greenhouse gas emissions at least in half by 2050. In fact, a revised goal put out earlier this year calls for the industry to reach net zero by mid-century.</description>
-      <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Biden's dog Commander has left the White House</title>
-      <link>https://www.npr.org/2023/10/04/1203808674/bidens-dog-commander-has-left-the-white-house</link>
-      <description>A previous version of this story incorrectly said the most recent biting incident was on Monday evening. In fact, it was the previous Monday, Sept. 25.</description>
       <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
     </item>
   </channel>
