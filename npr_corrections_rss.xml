@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Nov 2023 07:02:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Nov 2023 08:03:18 +0000</lastBuildDate>
+    <item>
+      <title>Mother of Palestinian student shot in Vermont thought he would be safer in U.S.</title>
+      <link>https://www.npr.org/2023/11/27/1215362007/vermont-palestinian-shooting-mother-west-bank</link>
+      <description>An earlier version of this story identified Hisham Awartani's father as Marwan Awartani. His father's name is Ali Awartani. Marwan is Hisham Awartani's uncle.</description>
+      <pubDate>Tue, 28 Nov 2023 08:03:18 +0000</pubDate>
+    </item>
     <item>
       <title>FAQ: Annual climate negotiations are about to start. Do they matter?</title>
       <link>https://www.npr.org/2023/11/27/1209676382/cop28-climate-change-conference-faq</link>
@@ -360,12 +366,6 @@
       <title>He watched his family get taken by Hamas fighters. Now he wants Israel to fight back</title>
       <link>https://www.npr.org/2023/10/10/1204800604/israeli-hostages-seized-by-hamas-include-a-mother-and-her-children</link>
       <description>A previous version of this story misspelled Yosi Shnaider as Yosi Shnaidel.</description>
-      <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>An 'anti-World's Fair' makes its case: give land back to Native Americans</title>
-      <link>https://www.npr.org/2023/10/09/1200465128/new-red-order-worlds-unfair-native-americans</link>
-      <description>Previous versions of this story incorrectly stated the city that gave back an island as Eureka, Ore. It is Eureka, Calif.</description>
       <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
     </item>
   </channel>
