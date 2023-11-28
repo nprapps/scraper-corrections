@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Nov 2023 20:02:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Nov 2023 21:02:36 +0000</lastBuildDate>
+    <item>
+      <title>Texas abortion case heard before state's highest court, as more women join lawsuit</title>
+      <link>https://www.npr.org/sections/health-shots/2023/11/28/1215463289/texas-abortion-lawsuit-texas-supreme-court</link>
+      <description>This story was updated at 3:46 p.m. to reflect some of what happened in the hearing.</description>
+      <pubDate>Tue, 28 Nov 2023 21:02:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Another Ozempic side effect? Facing the holidays with no appetite</title>
+      <link>https://www.npr.org/sections/health-shots/2023/11/22/1214141739/appetite-loss-hunger-ozempic-thanksgiving</link>
+      <description>An earlier version of this story incorrectly stated that Kim Tyler was taking Wegovy. In fact, she is taking Ozempic.</description>
+      <pubDate>Tue, 28 Nov 2023 21:02:37 +0000</pubDate>
+    </item>
     <item>
       <title>Mother of Palestinian student shot in Vermont thought he would be safer in U.S.</title>
       <link>https://www.npr.org/2023/11/27/1215362007/vermont-palestinian-shooting-mother-west-bank</link>
@@ -354,18 +366,6 @@
       <title>Writers union votes to ratify contract, ending one of Hollywood's longest strikes</title>
       <link>https://www.npr.org/2023/10/10/1204754706/writers-union-votes-to-ratify-contract-ending-one-of-hollywoods-longest-strikes</link>
       <description>Many NPR newsroom staff are members of SAG-AFTRA but are not part of the bargaining unit that is striking.</description>
-      <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>One sister survived cancer. Five years later, the other one is still processing it</title>
-      <link>https://www.npr.org/2023/10/10/1204800583/the-struggles-faced-by-the-siblings-of-cancer-survivors-are-often-overlooked</link>
-      <description>A previous version of the broadcast story stated that next month Kristin Long at Boston University will host a convention for siblings like Kayla and Ella in Chicago. The convention is focused on how to support siblings like them.</description>
-      <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>He watched his family get taken by Hamas fighters. Now he wants Israel to fight back</title>
-      <link>https://www.npr.org/2023/10/10/1204800604/israeli-hostages-seized-by-hamas-include-a-mother-and-her-children</link>
-      <description>A previous version of this story misspelled Yosi Shnaider as Yosi Shnaidel.</description>
       <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
     </item>
   </channel>
