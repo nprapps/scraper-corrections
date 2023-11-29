@@ -7,7 +7,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Nov 2023 22:02:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Nov 2023 23:02:32 +0000</lastBuildDate>
+    <item>
+      <title>A Court Ruling Poses A New Threat To The Voting Rights Act's Protections</title>
+      <link>https://www.npr.org/2023/11/27/1197958202/the-npr-politics-podcast-draft-11-27-2023</link>
+      <description>A previous version of this podcast episode incorrectly stated that a local election official in Mississippi's Hinds County had admitted to local media that they did not follow state law and preprint enough ballots for Election Day. This reference was dated and did not refer to the 2022 general election.</description>
+      <pubDate>Wed, 29 Nov 2023 23:02:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Civilian deaths are being dismissed as 'crisis actors' in Gaza and Israel</title>
+      <link>https://www.npr.org/2023/11/27/1214451419/civilian-deaths-are-being-dismissed-as-crisis-actors-in-gaza-and-israel</link>
+      <description>A previous version of this story incorrectly attributed data about mentions of "Pallywood" to Logically. It should have been attributed to Logically Facts, which is an independent subsidiary of Logically.</description>
+      <pubDate>Wed, 29 Nov 2023 23:02:34 +0000</pubDate>
+    </item>
     <item>
       <title>Are there too many people in Colorado for gray wolves to thrive?</title>
       <link>https://www.npr.org/2023/11/29/1215765493/are-there-too-many-people-in-colorado-for-gray-wolves-to-thrive</link>
@@ -354,18 +366,6 @@
       <title>'Total War: Pharaoh' and 'Star Trek: Infinite': boldly going where we've been before</title>
       <link>https://www.npr.org/2023/10/12/1204955269/total-war-pharaoh-star-trek-infinite-strategy</link>
       <description>An earlier version of this story misstated the name of the fictional Star Trek species Cardassian as Cassardian.</description>
-      <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>The sexual assault victims suing Uber notch a legal victory in their long battle</title>
-      <link>https://www.npr.org/2023/10/11/1205135476/sexual-assault-victims-suing-uber-notch-a-legal-victory-in-long-battle</link>
-      <description>A previous version of this story incorrectly cited Uber's data on sexual assault and rape as "incidents," rather than "reported incidents."</description>
-      <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Migrant mothers arriving in New York find support, hope — and lots of challenges</title>
-      <link>https://www.npr.org/2023/10/10/1204273159/migrant-mothers-new-york-bellevue-womens-health-pregnancy</link>
-      <description>A previous version of the captions in this story referred to a maternity care unit at the Roosevelt Hotel in New York City. The hotel hosts a medical clinic.</description>
       <pubDate>Sun, 19 Nov 2023 11:02:32 +0000</pubDate>
     </item>
   </channel>
