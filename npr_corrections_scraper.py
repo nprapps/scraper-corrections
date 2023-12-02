@@ -5,6 +5,7 @@ from datetime import datetime
 import pytz
 import os
 import feedparser
+import json
 
 # Timezone adjustment (this can be removed if you're not using it)
 eastern_timezone = pytz.timezone('US/Eastern')
@@ -28,12 +29,10 @@ fg.subtitle('Corrections from NPR')
 fg.language('en')
 fg.lastBuildDate(current_utc_time)
 
-# ... [Previous part of the code remains unchanged]
-
 # 1. Parse new corrections
 new_entries = []
 
-for correction in soup.find_all('div', class_='item-info')[:60]:
+for correction in soup.find_all('div', class_='item-info',limit=10):
     title_link = correction.find('h2', class_='title').find('a')
     story_title = title_link.text.strip()
     story_link = title_link['href']
@@ -55,7 +54,7 @@ old_feed_entries = []
 
 if os.path.exists('npr_corrections_rss.xml'):
     old_feed = feedparser.parse('npr_corrections_rss.xml')
-    for entry in old_feed.entries:
+    for entry in old_feed.entries[:10]:
         old_feed_entries.append({
             'title': entry.title,
             'link': entry.link,
@@ -63,19 +62,23 @@ if os.path.exists('npr_corrections_rss.xml'):
             'published': entry.published
         })
 
+# Write new_entries to a file
+#with open('new_entries.json', 'w', encoding='utf-8') as f:
+#    json.dump(new_entries, f, ensure_ascii=False, indent=4)
+
+# Write old_feed_entries to a file
+#with open('old_feed_entries.json', 'w', encoding='utf-8') as f:
+#    json.dump(old_feed_entries, f, ensure_ascii=False, indent=4)
+
+
 # 3. Compare and Add Entries to the RSS Feed
 
 old_identifiers = [(entry['link']) for entry in old_feed_entries]
 
-added_count = 0  # This will keep track of the total entries added to the RSS feed
-
 # First, add entries that are NEW (not in the old feed)
 for entry_data in reversed(new_entries):
-    if added_count >= 60:
-        break  # Stop adding if we've already added 60 entries
     identifier = (entry_data['link'])
     if identifier not in old_identifiers:
-        added_count += 1
         entry = fg.add_entry(order='prepend')
         entry.title(entry_data['title'])
         entry.link(href=entry_data['link'], rel='alternate')
@@ -84,9 +87,6 @@ for entry_data in reversed(new_entries):
 
 # Then, add all old entries
 for entry_data in old_feed_entries:
-    if added_count >= 60:
-        break  # Stop adding if we've already added 60 entries
-    added_count += 1
     entry = fg.add_entry(order='append')
     entry.title(entry_data['title'])
     entry.link(href=entry_data['link'], rel='alternate')
