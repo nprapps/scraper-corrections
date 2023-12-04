@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Dec 2023 20:02:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Dec 2023 21:02:30 +0000</lastBuildDate>
+    <item>
+      <title>Generations of mothers are at the center of 'A Grandmother Begins The Story'</title>
+      <link>https://www.npr.org/2023/11/29/1214209282/book-review-michelle-porter-a-grandmother-begins-a-story</link>
+      <description>An earlier version of this review incorrectly stated the title of the book. It has been corrected here.</description>
+      <pubDate>Mon, 04 Dec 2023 21:02:30 +0000</pubDate>
+    </item>
     <item>
       <title>Actor Jonathan Majors' trial begins in New York City, after numerous delays</title>
       <link>https://www.npr.org/2023/11/29/1199462210/jonathan-majors-trial</link>
@@ -67,12 +73,6 @@
       <link>https://www.npr.org/2023/12/01/1216340282/new-law-gives-texas-more-power-to-criminalize-undocumented-migrants-in-the-state</link>
       <description>An earlier description of this story referred to an unrelated story. This story is about legislative efforts in Texas to give state and local law enforcement more power to arrest migrants who cross the southern border illegally.</description>
       <pubDate>Fri, 01 Dec 2023 17:02:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Generations of mothers are at the center of 'A Grandmother Begins The Story'</title>
-      <link>https://www.npr.org/2023/11/29/1214209282/book-review-michelle-porter-a-grandmother-begins-a-story</link>
-      <description>An earlier version of this review incorrectly stated the title of the book. It has been corrected here.</description>
-      <pubDate>Thu, 30 Nov 2023 16:02:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
