@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Dec 2023 15:02:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Dec 2023 16:02:51 +0000</lastBuildDate>
+    <item>
+      <title>Texas abortion case heard before state's highest court, as more women join lawsuit</title>
+      <link>https://www.npr.org/sections/health-shots/2023/11/28/1215463289/texas-abortion-lawsuit-texas-supreme-court</link>
+      <description>This story was updated at 3:46 p.m. to reflect some of what happened in the hearing.</description>
+      <pubDate>Mon, 04 Dec 2023 16:02:52 +0000</pubDate>
+    </item>
     <item>
       <title>Pioneering Latina public radio journalist Maria Martin dies at 72</title>
       <link>https://www.npr.org/2023/12/02/1216662361/maria-martin-latino-usa-journalist-dies</link>
@@ -67,12 +73,6 @@
       <link>https://www.npr.org/2023/11/29/1215765493/are-there-too-many-people-in-colorado-for-gray-wolves-to-thrive</link>
       <description>An earlier audio version of this story indicated that gray wolves once were wiped out by hunting in Colorado. The corrected version reports only that they were wiped out before they were reintroduced in 2020.</description>
       <pubDate>Wed, 29 Nov 2023 17:02:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Texas abortion case heard before state's highest court, as more women join lawsuit</title>
-      <link>https://www.npr.org/sections/health-shots/2023/11/28/1215463289/texas-abortion-lawsuit-texas-supreme-court</link>
-      <description>This story was updated at 3:46 p.m. to reflect some of what happened in the hearing.</description>
-      <pubDate>Tue, 28 Nov 2023 21:02:37 +0000</pubDate>
     </item>
   </channel>
 </rss>
