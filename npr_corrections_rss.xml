@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Dec 2023 18:03:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Dec 2023 19:02:32 +0000</lastBuildDate>
+    <item>
+      <title>A Court Ruling Poses A New Threat To The Voting Rights Act's Protections</title>
+      <link>https://www.npr.org/2023/11/27/1197958202/the-npr-politics-podcast-draft-11-27-2023</link>
+      <description>A previous version of this podcast episode incorrectly stated that a local election official in Mississippi's Hinds County had admitted to local media that they did not follow state law and preprint enough ballots for Election Day. This reference was dated and did not refer to the 2022 general election.</description>
+      <pubDate>Mon, 04 Dec 2023 19:02:33 +0000</pubDate>
+    </item>
     <item>
       <title>Civilian deaths are being dismissed as 'crisis actors' in Gaza and Israel</title>
       <link>https://www.npr.org/2023/11/27/1214451419/civilian-deaths-are-being-dismissed-as-crisis-actors-in-gaza-and-israel</link>
@@ -67,12 +73,6 @@
       <link>https://www.npr.org/2023/11/29/1199462210/jonathan-majors-trial</link>
       <description>An earlier version of this story incorrectly stated that opening arguments would begin on Thursday. The opening arguments are not expected to begin until jury selection is complete.</description>
       <pubDate>Thu, 30 Nov 2023 16:02:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Court Ruling Poses A New Threat To The Voting Rights Act's Protections</title>
-      <link>https://www.npr.org/2023/11/27/1197958202/the-npr-politics-podcast-draft-11-27-2023</link>
-      <description>A previous version of this podcast episode incorrectly stated that a local election official in Mississippi's Hinds County had admitted to local media that they did not follow state law and preprint enough ballots for Election Day. This reference was dated and did not refer to the 2022 general election.</description>
-      <pubDate>Wed, 29 Nov 2023 23:02:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
